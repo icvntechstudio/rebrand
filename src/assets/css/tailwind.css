@@ -1744,6 +1744,9 @@ video {
 .min-h-screen-75 {
   min-height: 75vh;
 }
+.min-h-screen-83 {
+  min-height: 83vh;
+}
 
 .min-w-0 {
   min-width: 0;

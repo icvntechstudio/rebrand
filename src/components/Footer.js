@@ -31,14 +31,14 @@ export default function Footer() {
                 Send a message via our <a href="#contact">form</a> or in any of our social media accounts, we respond 1-2 business days.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
-                <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+                <ul className="flex flex-row lg:flex-row list-none lg:ml-auto items-center md:justify-between justify-center">
                   <li className="flex items-center">
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://linkedin.com/in/vicentereyes0888"
                       >
-                        <i className="fab fa-linkedin"></i>
+                        <i className="fab fa-linkedin text-blue-700"></i>
                       </button>
                     </form>
                   </li>
@@ -48,7 +48,7 @@ export default function Footer() {
                         className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://github.com/reyesvicente"
                       >
-                        <i className="fab fa-github-alt"></i>
+                        <i className="fab fa-github-alt text-gray-900"></i>
                       </button>
                     </form>
                   </li>
@@ -58,7 +58,7 @@ export default function Footer() {
                         className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://dev.to/highcenburg"
                       >
-                        <i className="fab fa-dev"></i>
+                        <i className="fab fa-dev text-gray-900"></i>
                       </button>
                     </form>
                   </li>
@@ -78,14 +78,14 @@ export default function Footer() {
                         className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://facebook.com/highcenbugtv"
                       >
-                        <i className="fab fa-facebook-square"></i>
+                        <i className="fab fa-facebook-square text-blue-600"></i>
                       </button>
                     </form>
                   </li>
                   <li className="flex items-center">
                     <form target="_blank" rel="noopener noreferrer">
                       <button
-                        className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                        className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://twitter.com/highcenburg"
                       >
                         <i className="fab fa-twitter"></i>
@@ -108,7 +108,7 @@ export default function Footer() {
                         className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://open.spotify.com/artist/7oujeUrwgwhYUQFRW7VlIR"
                       >
-                        <i className="fab fa-spotify"></i>
+                        <i className="fab fa-spotify text-green-500"></i>
                       </button>
                     </form>
                   </li>
@@ -121,7 +121,7 @@ export default function Footer() {
                   <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
                     Useful Links
                   </span>
-                  <ul className="list-unstyled">
+                  <ul className="list-unstyled items-center">
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"

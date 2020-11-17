@@ -4,8 +4,8 @@ import React, { Component } from 'react'
 class Feature extends Component {
 	render() {
 		return(
-			<div class="pb-20 bg-gray-300 -mt-32">
-				<div class="container mx-auto">
+			<div className="pb-20 bg-gray-300 -mt-32">
+				<div className="container mx-auto">
 		            <div className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px" 
 		            	style={{ transform: "translateZ(0)" }}>
 		                <svg
@@ -28,7 +28,7 @@ class Feature extends Component {
 				            <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
 				              <div className="px-4 py-5 flex-auto">
 				                <div className="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-xl rounded-full">
-				                  <img src="https://img.icons8.com/color/48/000000/change-theme.png"/>
+				                  <img src="https://img.icons8.com/color/48/000000/change-theme.png" alt="ui ux designer" />
 				                </div>
 				                <h6 className="text-xl font-semibold">Custom-fit UI/UX Design</h6>
 				                <p className="mt-2 mb-4 text-gray-600">
@@ -42,7 +42,7 @@ class Feature extends Component {
 				            <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
 				              <div className="px-4 py-5 flex-auto">
 				                <div className="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-xl rounded-full">
-				                  <img src="https://img.icons8.com/fluent/48/000000/management.png"/>
+				                  <img src="https://img.icons8.com/fluent/48/000000/management.png" alt="administrator" />
 				                </div>
 				                <h6 className="text-xl font-semibold">Custom Admin Panel</h6>
 				                <p className="mt-2 mb-4 text-gray-600">
@@ -56,7 +56,7 @@ class Feature extends Component {
 				            <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
 				              <div className="px-4 py-5 flex-auto">
 				                <div className="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-xl rounded-full">
-				                  <img src="https://img.icons8.com/color/48/000000/web-shield.png"/>
+				                  <img src="https://img.icons8.com/color/48/000000/web-shield.png" alt="security" />
 				                </div>
 				                <h6 className="text-xl font-semibold">Secured by Default</h6>
 				                <p className="mt-2 mb-4 text-gray-600">

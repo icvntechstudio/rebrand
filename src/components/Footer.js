@@ -36,7 +36,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formaction="https://linkedin.com/in/vicentereyes0888"
+                        type="submit" formAction="https://linkedin.com/in/vicentereyes0888"
                       >
                         <i className="fab fa-linkedin"></i>
                       </button>
@@ -46,7 +46,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formaction="https://github.com/reyesvicente"
+                        type="submit" formAction="https://github.com/reyesvicente"
                       >
                         <i className="fab fa-github-alt"></i>
                       </button>
@@ -56,7 +56,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formaction="https://dev.to/highcenburg"
+                        type="submit" formAction="https://dev.to/highcenburg"
                       >
                         <i className="fab fa-dev"></i>
                       </button>
@@ -66,7 +66,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formaction="https://medium.com/@highcenburg"
+                        type="submit" formAction="https://medium.com/@highcenburg"
                       >
                         <i className="fab fa-medium"></i>
                       </button>
@@ -76,7 +76,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formaction="https://facebook.com/highcenbugtv"
+                        type="submit" formAction="https://facebook.com/highcenbugtv"
                       >
                         <i className="fab fa-facebook-square"></i>
                       </button>
@@ -86,7 +86,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formaction="https://twitter.com/highcenburg"
+                        type="submit" formAction="https://twitter.com/highcenburg"
                       >
                         <i className="fab fa-twitter"></i>
                       </button>
@@ -96,7 +96,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formaction="https://instagram.com/highcenbugtv"
+                        type="submit" formAction="https://instagram.com/highcenbugtv"
                       >
                         <i className="fab fa-instagram"></i>
                       </button>
@@ -106,7 +106,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formaction="https://open.spotify.com/artist/7oujeUrwgwhYUQFRW7VlIR"
+                        type="submit" formAction="https://open.spotify.com/artist/7oujeUrwgwhYUQFRW7VlIR"
                       >
                         <i className="fab fa-spotify"></i>
                       </button>
@@ -210,12 +210,12 @@ export default function Footer() {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-gray-600 font-semibold py-1">
-                Copyright © {new Date().getFullYear()} studio.icvn.tech by{" "}
+                Copyright © {new Date().getFullYear()} 
                 <a
-                  href="https://www.studio.icvn.tech"
+                  href="https://www.studio.icvn.tech?ref=footer-copyright"
                   className="text-gray-600 hover:text-gray-900"
                 >
-                  Vicente G. Reyes
+                studio.icvn.tech {" "}
                 </a>
                 .
               </div>

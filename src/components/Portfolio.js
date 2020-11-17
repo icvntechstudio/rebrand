@@ -6,7 +6,7 @@ class Portfolio extends Component {
 	render() {
 		return (
 			<>
-	            <div className="justify-center text-center flex flex-wrap mt-24">
+	            <div className="justify-center text-center flex flex-wrap mt-12">
 		            <div className="w-full md:w-6/12 px-12 md:px-4">
 		              <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
 		              <p className="text-lg leading-relaxed mt-4 mb-20 text-gray-600">
@@ -30,7 +30,7 @@ class Portfolio extends Component {
 				                        <img
 				                          alt="..."
 				                          className="align-middle border-none max-w-full h-auto rounded-lg"
-				                          src={require("assets/img/login.jpg")}
+				                          src="https://demos.creative-tim.com/notus-react/static/media/login.a6f0905b.jpg"
 				                        />
 				                      </div>
 				                    </Link>
@@ -45,13 +45,13 @@ class Portfolio extends Component {
 				                        <img
 				                          alt="..."
 				                          className="align-middle border-none max-w-full h-auto rounded-lg"
-				                          src={require("assets/img/profile.jpg")}
+				                          src="https://demos.creative-tim.com/notus-react/static/media/profile.056db542.jpg"
 				                        />
 				                        </div>
 				                    </Link>
 			                    </div>
 
-			                    <div className="w-full lg:w-4/12 px-4 ">
+			                    <div className="w-full lg:w-4/12 px-4">
 				                    <h5 className="text-xl font-semibold pb-4 text-center">
 				                      Landing Page
 				                    </h5>
@@ -60,7 +60,7 @@ class Portfolio extends Component {
 					                        <img
 					                          alt="..."
 					                          className="align-middle border-none max-w-full h-auto rounded-lg"
-					                          src={require("assets/img/landing.jpg")}
+					                          src="https://demos.creative-tim.com/notus-react/static/media/landing.37b6ed3b.jpg"
 					                        />
 				                        </div>
 				                    </Link>

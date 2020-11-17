@@ -869,6 +869,12 @@ video {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
+.bg-gray-200 {
+  --bg-opacity: 1;
+  background-color: #edf2f7;
+  background-color: rgba(237, 242, 247, var(--bg-opacity));
+}
+
 .bg-gray-300 {
   --bg-opacity: 1;
   background-color: #e2e8f0;
@@ -1025,8 +1031,16 @@ video {
   flex-grow: 1;
 }
 
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
 .font-normal {
   font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .font-semibold {
@@ -1037,12 +1051,20 @@ video {
   font-weight: 700;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
 .h-8 {
   height: 2rem;
 }
 
 .h-10 {
   height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .h-20 {
@@ -1107,6 +1129,10 @@ video {
 
 .m-4 {
   margin: 1rem;
+}
+
+.-m-4 {
+  margin: -1rem;
 }
 
 .my-6 {
@@ -1243,6 +1269,14 @@ video {
   min-width: 0;
 }
 
+.object-cover {
+  object-fit: cover;
+}
+
+.object-center {
+  object-position: center;
+}
+
 .opacity-75 {
   opacity: 0.75;
 }
@@ -1261,6 +1295,14 @@ video {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .py-1 {
@@ -1303,6 +1345,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1318,12 +1365,21 @@ video {
   padding-bottom: 5rem;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .pt-6 {
@@ -1434,6 +1490,12 @@ video {
   color: rgba(226, 232, 240, var(--text-opacity));
 }
 
+.text-gray-400 {
+  --text-opacity: 1;
+  color: #cbd5e0;
+  color: rgba(203, 213, 224, var(--text-opacity));
+}
+
 .text-gray-500 {
   --text-opacity: 1;
   color: #a0aec0;
@@ -1509,12 +1571,20 @@ video {
   overflow-wrap: break-word;
 }
 
+.w-5 {
+  width: 1.25rem;
+}
+
 .w-8 {
   width: 2rem;
 }
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-24 {
@@ -1603,6 +1673,10 @@ video {
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:w-4\/12 {

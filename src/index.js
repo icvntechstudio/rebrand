@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom'
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import "assets/css/tailwind.css";
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

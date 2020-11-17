@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { BrowserRouter, Route } from 'react-router-dom'
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "assets/css/tailwind.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Route path="/" exact component={App} />
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

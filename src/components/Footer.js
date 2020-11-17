@@ -193,6 +193,14 @@ export default function Footer() {
                         Book A Call
                       </a>
                     </li>
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="http://icons8.com?ref=studio-footer"
+                      >
+                        icons8
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>

@@ -2918,3 +2918,7 @@ video {
     width: 66.666667%;
   }
 }
+
+.hubspot-link__container.sproket {
+  opacity: 0 !important;
+}

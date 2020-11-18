@@ -29,6 +29,7 @@ module.exports = {
         "55": "55rem",
       },
       opacity: {
+        "0": "0",
         "80": ".8",
       },
       zIndex: {

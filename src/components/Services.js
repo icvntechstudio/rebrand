@@ -24,7 +24,7 @@ class Services extends Component {
 	              ></polygon>
 	            </svg>
 	          </div>
-	          <div className="container mx-auto px-12 lg:pt-24 lg:pb-64">
+	          <div className="container mx-auto lg:pt-24 lg:pb-64">
 	            <div className="flex flex-wrap text-center justify-center">
 	              <div className="w-full lg:w-6/12 px-16 sm:px-16 md:px-16">
 	                <h2 className="text-4xl font-semibold text-white">

@@ -10,10 +10,10 @@ export default function Navbar(props) {
         <div className="container px-2 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
-              className="text-white text-lg mr-4 font-bold leading-relaxed inline-block py-2 whitespace-no-wrap uppercase"
+              className="text-white text-xl mr-4 font-bold leading-relaxed inline-block py-2 whitespace-no-wrap uppercase"
               to="/"
             >
-              Studio:icvn.tech
+              studio.icvn.tech
             </Link>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -117,7 +117,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <form>
                   <button
-                    className="bg-white text-gray-800 active:bg-gray-100 text-sm font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                    className="bg-blue-600 text-white active:bg-gray-200 text-sm font-bold uppercase px-4 py-3 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                     type="submit" formAction="https://cutt.ly/GgTzQ1m" target="_blank" rel="noopener noreferrer">
                     <i className="fas fa-phone-volume -pl-1 mr-1 px"></i> Book a Call
                   </button>

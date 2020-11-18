@@ -29,16 +29,16 @@ class Header extends Component {
                     We help startups launch fast.
                   </p>{/* secure and converting websites */}
                 </div>
-                <div className="text-center mt-4 pb-16">
-                <form target="_blank" rel="noopener noreferrer">
-                  <button
-                    className="bg-green-500 text-gray-900 active:bg-green-900 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="submit" formAction="https://share.hsforms.com/1hy5KUSAbS1GKx5oD7sVhoQ57353"
-                  >
-                    Get in Touch
-                  </button>
-                </form>
-              </div>
+                <div className="text-center mt-8 pb-16">
+                  <form target="_blank" rel="noopener noreferrer">
+                    <button
+                      className="bg-green-500 text-gray-900 active:bg-green-900 text-sm font-bold uppercase px-6 py-4 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      type="submit" formAction="https://share.hsforms.com/1hy5KUSAbS1GKx5oD7sVhoQ57353"
+                    >
+                      Get in Touch
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>

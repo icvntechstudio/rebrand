@@ -17,17 +17,17 @@ class Header extends Component {
               className="w-full h-full absolute opacity-75 bg-black"
             ></span>
           </div>
-          <div className="container relative mx-auto mt-10">
+          <div className="container relative mx-auto mt-16">
             <div className="items-center flex flex-wrap">
-              <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div className="w-full lg:w-8/12 px-4 ml-auto mr-auto text-center">
                 <div className="">
                   <h1 className="text-white font-bold text-5xl">
                     We build well-designed, conversion optimized products
                   </h1>
-                  <p className="mt-4 text-lg text-gray-300">
+                  <p className="mt-4 text-lg px-2 text-gray-300">
                     A design and technology studio turning pain points into design.
                     We help startups launch fast.
-                  </p><!-- , secure and converting websites -->
+                  </p>{/* secure and converting websites */}
                 </div>
                 <div className="text-center mt-6">
                 <button

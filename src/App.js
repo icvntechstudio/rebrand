@@ -8,6 +8,9 @@ import Feature from './components/Features'
 import Clients from './components/Clients'
 import Portfolio from './components/Portfolio'
 import Testimonial from './components/Testimonial'
+import Tech from './components/Tech'
+import About from './components/About'
+
 
 class App extends Component{
   render() {
@@ -19,6 +22,8 @@ class App extends Component{
         <Clients />
         <Portfolio />
         <Testimonial />
+        <Tech />
+        <About />
         <Footer />
       </div>
       )

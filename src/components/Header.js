@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class Header extends Component {
   render() {
     return (
-        <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-83">
+        <div className="pt-16 pb-32 flex content-center items-center justify-center min-h-screen-83">
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
@@ -20,14 +20,14 @@ class Header extends Component {
           <div className="container relative mx-auto mt-10">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="px-14 sm:px-4 md:px-8 lg:px-12 xl:px-14">
+                <div className="">
                   <h1 className="text-white font-bold text-5xl">
                     We build well-designed, conversion optimized products
                   </h1>
                   <p className="mt-4 text-lg text-gray-300">
                     A design and technology studio turning pain points into design.
-                    We help startups launch fast, secure and converting websites.
-                  </p>
+                    We help startups launch fast.
+                  </p><!-- , secure and converting websites -->
                 </div>
                 <div className="text-center mt-6">
                 <button

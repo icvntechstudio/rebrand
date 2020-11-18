@@ -10,7 +10,7 @@ export default function Navbar(props) {
         <div className="container px-2 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
-              className="text-white text-lg font-bold leading-relaxed inline-block py-2 whitespace-no-wrap uppercase"
+              className="text-white text-lg mr-4 font-bold leading-relaxed inline-block py-2 whitespace-no-wrap uppercase"
               to="/"
             >
               Studio:icvn.tech
@@ -90,15 +90,6 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://github.com/@highcenburg" target="_blank" rel="noopener noreferrer">
-                  <i className="lg:text-gray-300 text-gray-500 fab fa-medium text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Medium</span>
-                </a>
-              </li>
-
-              <li className="flex items-center">
-                <a
-                  className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://dev.to/highcenburg" target="_blank" rel="noopener noreferrer">
                   <i className="lg:text-gray-300 text-gray-500 fab fa-dev text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">DEV.to</span>
@@ -124,29 +115,11 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-                <a
-                  className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://instagram.com/highcenbugtv" target="_blank" rel="noopener noreferrer">
-                  <i className="lg:text-gray-300 text-gray-500 fab fa-instagram text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Instagram</span>
-                </a>
-              </li>
-
-              <li className="flex items-center">
-                <a
-                  className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://open.spotify.com/artist/7oujeUrwgwhYUQFRW7VlIR" target="_blank" rel="noopener noreferrer">
-                  <i className="lg:text-gray-300 text-gray-500 fab fa-spotify text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Spotify</span>
-                </a>
-              </li>
-
-              <li className="flex items-center">
                 <form>
                   <button
-                    className="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                    className="bg-white text-gray-800 active:bg-gray-100 text-sm font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                     type="submit" formAction="https://cutt.ly/GgTzQ1m" target="_blank" rel="noopener noreferrer">
-                    <i className="fas fa-phone-volume -pl-1 mr-1"></i> Book a Call
+                    <i className="fas fa-phone-volume -pl-1 mr-1 px"></i> Book a Call
                   </button>
                 </form>
               </li>

@@ -10,6 +10,8 @@ import Portfolio from './components/Portfolio'
 import Testimonial from './components/Testimonial'
 import Tech from './components/Tech'
 import About from './components/About'
+import Services from './components/Services'
+import Contact from './components/Contact'
 
 
 class App extends Component{
@@ -24,6 +26,8 @@ class App extends Component{
         <Testimonial />
         <Tech />
         <About />
+        <Services />
+        <Contact />
         <Footer />
       </div>
       )

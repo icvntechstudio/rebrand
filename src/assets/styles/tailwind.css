@@ -2519,6 +2519,32 @@ video {
   }
 }
 
+@media (min-width: 380px) {
+  .xs\:block {
+    display: block;
+  }
+
+  .xs\:mt-0 {
+    margin-top: 0;
+  }
+
+  .xs\:ml-1 {
+    margin-left: 0.25rem;
+  }
+
+  .xs\:mr-1 {
+    margin-right: 0.5rem;
+  }
+
+  .xs\:pt-0 {
+    padding-top: 0;
+  }
+
+  .xs\:w-full {
+    width: 50%;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
@@ -2701,7 +2727,7 @@ video {
   }
 
   .md\:w-8\/12 {
-    width: 66.666667%;
+    width: 75%;
   }
 }
 

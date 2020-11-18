@@ -18,24 +18,26 @@ class Header extends Component {
             ></span>
           </div>
           <div className="container relative mx-auto mt-16">
-            <div className="items-center flex flex-wrap">
-              <div className="w-full lg:w-8/12 px-4 ml-auto mr-auto text-center">
+            <div className="items-center flex flex-wrap mt-6">
+              <div className="w-full lg:w-8/12 px-4 mx-auto text-center">
                 <div className="">
-                  <h1 className="text-white font-bold text-5xl">
+                  <h1 className="text-white font-bold text-6xl">
                     We build well-designed, conversion optimized products
                   </h1>
-                  <p className="mt-4 text-lg px-2 text-gray-300">
+                  <p className="mt-4 text-xl px-3 text-gray-300">
                     A design and technology studio turning pain points into design.
                     We help startups launch fast.
                   </p>{/* secure and converting websites */}
                 </div>
                 <div className="text-center mt-6">
-                <button
-                  className="bg-green-500 text-gray-900 active:bg-green-900 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                  type="button"
-                >
-                  Get in Touch
-                </button>
+                <form target="_blank" rel="noopener noreferrer">
+                  <button
+                    className="bg-green-500 text-gray-900 active:bg-green-900 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    type="submit" formAction="https://share.hsforms.com/1hy5KUSAbS1GKx5oD7sVhoQ57353"
+                  >
+                    Get in Touch
+                  </button>
+                </form>
               </div>
               </div>
             </div>

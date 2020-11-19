@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap text-center lg:text-left">
-            <div className="w-full lg:w-6/12 px-6">
+            <div className="w-full 2xl:w-6/12 xl:w-6/12 lg:w-6/12 px-6">
               <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
               <h5 className="text-lg mt-0 mb-2 text-gray-700">
                 Send a message via our <a href="#contact">form</a> or in any of our social media accounts, we respond 1-2 business days.
@@ -132,7 +132,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" 
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="http://localhost:3000/?ref=studio-footer" target="_blank" rel="noopener noreferrer"
                       >
                         Services
@@ -210,14 +210,14 @@ export default function Footer() {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-6 mx-auto text-center">
               <div className="text-sm text-gray-600 font-semibold py-1">
-                <span>Copyright © {new Date().getFullYear()}</span>
+                <span>Copyright © {new Date().getFullYear()} </span>
                 <a
-                  href="https://www.studio.icvn.tech?ref=footer-copyright"
+                  href="https://www.studio.icvn.tech?ref=internal_footer"
                   className="text-gray-600 hover:text-gray-900"
                 >
                 studio.icvn.tech {" "}
                 </a>
-                
+
               </div>
             </div>
           </div>

@@ -1181,10 +1181,6 @@ video {
   margin: 1rem;
 }
 
-.-m-4 {
-  margin: -1rem;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -1785,6 +1781,10 @@ video {
     margin-top: 8rem;
   }
 
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
   .sm\:w-6\/12 {
     width: 50%;
   }
@@ -1879,6 +1879,11 @@ video {
     padding-bottom: 0.5rem;
   }
 
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .lg\:pt-0 {
     padding-top: 0;
   }
@@ -1951,5 +1956,13 @@ video {
 }
 
 @media (min-width: 1440px) {
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xl\:w-6\/12 {
+    width: 50%;
+  }
 }
 

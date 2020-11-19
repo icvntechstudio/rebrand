@@ -5,9 +5,9 @@ class Clients extends Component {
 	render() {
 		return (
 			<div className="bg-gray-300">
-	            <div className="container mx-auto" id="about">
+	            <div className="container mx-auto px-4" id="about">
 			        <section className="pt-20 pb-32">
-			          <div className="container mx-auto px-4">
+			          <div className="container mx-auto">
 			            <div className="flex flex-wrap justify-center text-center mb-24">
 			              <div className="w-full lg:w-8/12 px-6">
 			                <h2 className="text-4xl font-semibold">Our Clients and Partners</h2>
@@ -19,8 +19,8 @@ class Clients extends Component {
 			              </div>
 			            </div>
 			            <div className="flex flex-wrap">
-			              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-			                <div className="px-6">
+			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
+			                <div className="px-2">
 			                  <img
 			                    alt="..."
 			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
@@ -54,8 +54,8 @@ class Clients extends Component {
 			                  </div>
 			                </div>
 			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-			                <div className="px-6">
+			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 xs:w-1/2 xs:-px-5 lg:mb-0 mb-12 px-4">
+			                <div className="px-2">
 			                  <img
 			                    alt="..."
 			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
@@ -84,7 +84,7 @@ class Clients extends Component {
 			                </div>
 			              </div>
 			              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-			                <div className="px-6">
+			                <div className="px-2">
 			                  <img
 			                    alt="..."
 			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
@@ -119,7 +119,7 @@ class Clients extends Component {
 			                </div>
 			              </div>
 			              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-			                <div className="px-6">
+			                <div className="px-2">
 			                  <img
 			                    alt="..."
 			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"

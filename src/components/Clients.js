@@ -5,11 +5,11 @@ class Clients extends Component {
 	render() {
 		return (
 			<div className="bg-gray-300">
-	            <div className="container mx-auto px-4" id="about">
+	            <div className="container mx-auto" id="about">
 			        <section className="pt-20 pb-32">
 			          <div className="container mx-auto">
 			            <div className="flex flex-wrap justify-center text-center mb-24">
-			              <div className="w-full lg:w-8/12 px-6">
+			              <div className="w-full lg:w-8/12 md:w-6/12 px-6">
 			                <h2 className="text-4xl font-semibold">Our Clients and Partners</h2>
 			                <p className="text-lg leading-relaxed m-4 text-gray-600">
 			                  According to the National Oceanic and Atmospheric
@@ -83,7 +83,7 @@ class Clients extends Component {
 			                  </div>
 			                </div>
 			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
 			                <div className="px-2">
 			                  <img
 			                    alt="..."
@@ -118,7 +118,7 @@ class Clients extends Component {
 			                  </div>
 			                </div>
 			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
 			                <div className="px-2">
 			                  <img
 			                    alt="..."

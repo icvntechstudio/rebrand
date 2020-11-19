@@ -6,7 +6,7 @@ class Tech extends Component {
 		return (
 				<section className="overflow-hidden pb-32 bg-gray-300 -mt-24 mx-auto">
 		      <div className="container mx-auto flex flex-wrap items-center pt-18">
-						<div className="w-full xs:w-full sm:w-full md:w-6/12 lg:w-6/12 xl:w-6/12 2xl:px-16 xl:px-16 lg:px-12 px-4 md:px-4 mr-auto ml-auto xs:mt-32 sm:mt-32 md:mt-12">
+						<div className="w-full xs:w-full sm:w-full md:w-6/12 lg:w-6/12 xl:w-6/12 2xl:px-16 xl:px-16 lg:px-12 px-8 md:px-4 sm:px-4 xs:px-12 mr-auto ml-auto xs:mt-32 sm:mt-32 md:mt-12">
 			        <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
 			          <i className="fas fa-drafting-compass text-xl"></i>
 			        </div>

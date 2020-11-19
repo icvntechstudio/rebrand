@@ -27,7 +27,7 @@ class Header extends Component {
             Remove cookies
           </button>
             <div className="items-center flex flex-wrap pt-24">
-              <div className="w-full lg:w-8/12 mx-auto text-center">
+              <div className="w-full lg:w-8/12 md:w-10/12 sm:w-10/12 xs:w-full mx-auto text-center">
                 <div className="">
                   <h1 className="text-white font-bold text-6xl">
                     We build well-designed, conversion optimized products

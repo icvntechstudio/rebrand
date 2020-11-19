@@ -22,16 +22,16 @@ class About extends Component {
             </svg>
           </div>
           {/* Growing Company */ }
-          <div className="container mx-auto">
-            <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto mb-12">
+          <div className="container mx-auto px-4">
+            <div className="items-center flex flex-wrap justify-center">
+              <div className="w-full lg:w-6/12 px-8 ml-auto mr-auto mb-12">
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
                   src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
                 />
               </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto">
+              <div className="w-full lg:w-6/12 ml-auto mr-auto px-6">
                 <div className="md:pr-12">
                   <div className="text-blue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blue-300">
                     <i className="fas fa-rocket text-xl"></i>

@@ -1781,6 +1781,11 @@ video {
     margin-top: 8rem;
   }
 
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .sm\:w-1\/2 {
     width: 50%;
   }

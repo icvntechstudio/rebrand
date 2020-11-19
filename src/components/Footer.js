@@ -35,7 +35,7 @@ export default function Footer() {
                   <li className="flex items-center">
                     <form target="_blank" rel="noopener noreferrer">
                       <button
-                        className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                        className="bg-white text-blue-400 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://linkedin.com/in/vicentereyes0888"
                       >
                         <i className="fab fa-linkedin text-blue-700"></i>
@@ -45,7 +45,7 @@ export default function Footer() {
                   <li className="flex items-center">
                     <form target="_blank" rel="noopener noreferrer">
                       <button
-                        className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                        className="bg-white text-blue-600 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://github.com/reyesvicente"
                       >
                         <i className="fab fa-github-alt text-gray-900"></i>
@@ -55,7 +55,7 @@ export default function Footer() {
                   <li className="flex items-center">
                     <form target="_blank" rel="noopener noreferrer">
                       <button
-                        className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                        className="bg-white text-pink-400 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://dev.to/highcenburg"
                       >
                         <i className="fab fa-dev text-gray-900"></i>
@@ -65,7 +65,7 @@ export default function Footer() {
                   <li className="flex items-center">
                     <form target="_blank" rel="noopener noreferrer">
                       <button
-                        className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                        className="bg-white text-gray-900 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://medium.com/@highcenburg"
                       >
                         <i className="fab fa-medium"></i>
@@ -75,7 +75,7 @@ export default function Footer() {
                   <li className="flex items-center">
                     <form target="_blank" rel="noopener noreferrer">
                       <button
-                        className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                        className="bg-white text-blue-400 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://facebook.com/highcenbugtv"
                       >
                         <i className="fab fa-facebook-square text-blue-600"></i>
@@ -85,7 +85,7 @@ export default function Footer() {
                   <li className="flex items-center">
                     <form target="_blank" rel="noopener noreferrer">
                       <button
-                        className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                        className="bg-white text-blue-400 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://twitter.com/highcenburg"
                       >
                         <i className="fab fa-twitter"></i>
@@ -95,7 +95,7 @@ export default function Footer() {
                   <li className="flex items-center">
                     <form target="_blank" rel="noopener noreferrer">
                       <button
-                        className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                        className="bg-white text-pink-400 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://instagram.com/highcenbugtv"
                       >
                         <i className="fab fa-instagram"></i>
@@ -105,7 +105,7 @@ export default function Footer() {
                   <li className="flex items-center">
                     <form target="_blank" rel="noopener noreferrer">
                       <button
-                        className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                        className="bg-white text-gray-900 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://open.spotify.com/artist/7oujeUrwgwhYUQFRW7VlIR"
                       >
                         <i className="fab fa-spotify text-green-500"></i>

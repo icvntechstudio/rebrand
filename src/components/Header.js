@@ -18,6 +18,14 @@ class Header extends Component {
             ></span>
           </div>
           <div className="container relative mx-auto">
+          <button className="hubspot-button" type="button" id="hs_remove_cookie_button"
+            onClick="(function(){
+              var _hsp = window._hsp = window._hsp || [];
+              _hsp.push(['revokeCookieConsent']);
+            })()"
+          >
+            Remove cookies
+          </button>
             <div className="items-center flex flex-wrap pt-24">
               <div className="w-full lg:w-8/12 px-4 mx-auto text-center">
                 <div className="">
@@ -32,7 +40,7 @@ class Header extends Component {
                 <div className="text-center mt-8 pb-16">
                   <form target="_blank" rel="noopener noreferrer">
                     <button
-                      className="bg-green-500 text-gray-900 active:bg-green-900 text-sm font-bold uppercase px-6 py-4 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      className="bg-green-500 text-gray-900 hover:bg-green-700 text-md font-bold uppercase px-4 py-3 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                       type="submit" formAction="https://share.hsforms.com/1hy5KUSAbS1GKx5oD7sVhoQ57353"
                     >
                       Get in Touch

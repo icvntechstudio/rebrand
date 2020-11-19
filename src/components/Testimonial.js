@@ -7,7 +7,7 @@ class Testimonial extends Component {
 			<div className="bg-gray-300">
 	            <div className="container mx-auto px-6 mb-24">
 	                  <div className="flex flex-wrap justify-center text-center mb-24">
-	                    <div className="w-full lg:w-6/12 px-4">
+	                    <div className="w-full lg:w-8/12 px-4">
 	                      <h1 className="font-semibold text-4xl">Testimonials</h1>
 	                      <p className="text-lg leading-relaxed mt-4 mb-20 text-gray-600">
 	                        Notus React is a completly new product built using our past

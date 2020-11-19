@@ -24,9 +24,9 @@ class Services extends Component {
 	              ></polygon>
 	            </svg>
 	          </div>
-	          <div className="container mx-auto lg:pt-24 lg:pb-64">
+	          <div className="container mx-auto lg:pt-24 lg:pb-64 px-12">
 	            <div className="flex flex-wrap text-center justify-center">
-	              <div className="w-full lg:w-6/12 px-16 sm:px-16 md:px-16">
+	              <div className="w-full lg:w-8/12 px-4">
 	                <h2 className="text-4xl font-semibold text-white">
 	                  Build something
 	                </h2>
@@ -38,9 +38,9 @@ class Services extends Component {
 	              </div>
 	            </div>
 	            <div className="flex flex-wrap mt-12 justify-center">
-	              <div className="w-full lg:w-3/12 px-4 text-center">
-	                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-	                  <i className="fas fa-medal text-xl"></i>
+	              <div className="w-full lg:w-4/12 px-4 text-center">
+	                <div className="text-gray-900 p-3 w-16 h-16 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+	                  <i className="fas fa-medal text-2xl"></i>
 	                </div>
 	                <h6 className="text-xl mt-5 font-semibold text-white">
 	                  Excelent Services
@@ -50,9 +50,9 @@ class Services extends Component {
 	                  the bulk of the card's content.
 	                </p>
 	              </div>
-	              <div className="w-full lg:w-3/12 px-4 text-center">
-	                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-	                  <i className="fas fa-poll text-xl"></i>
+	              <div className="w-full lg:w-4/12 px-4 text-center">
+	                <div className="text-gray-900 p-3 w-16 h-16 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+	                  <i className="fas fa-poll text-2xl"></i>
 	                </div>
 	                <h5 className="text-xl mt-5 font-semibold text-white">
 	                  Grow your market
@@ -62,9 +62,9 @@ class Services extends Component {
 	                  the bulk of the card's content.
 	                </p>
 	              </div>
-	              <div className="w-full lg:w-3/12 px-4 text-center">
-	                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-	                  <i className="fas fa-lightbulb text-xl"></i>
+	              <div className="w-full lg:w-4/12 px-4 text-center">
+	                <div className="text-gray-900 p-3 w-16 h-16 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+	                  <i className="fas fa-lightbulb text-2xl"></i>
 	                </div>
 	                <h5 className="text-xl mt-5 font-semibold text-white">
 	                  Launch time

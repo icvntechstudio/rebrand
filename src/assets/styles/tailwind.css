@@ -1117,6 +1117,10 @@ video {
   height: 6rem;
 }
 
+.h-40 {
+    width: 10rem;
+}
+
 .h-auto {
   height: auto;
 }
@@ -1714,6 +1718,10 @@ video {
   width: 6rem;
 }
 
+.w-40 {
+    width: 10rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1970,4 +1978,3 @@ video {
     width: 50%;
   }
 }
-

@@ -26,7 +26,7 @@ class Services extends Component {
 	          </div>
 	          <div className="container mx-auto lg:pt-24 lg:pb-64 px-12">
 	            <div className="flex flex-wrap text-center justify-center">
-	              <div className="w-full lg:w-8/12 px-4">
+	              <div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-4">
 	                <h2 className="text-4xl font-semibold text-white">
 	                  Build something
 	                </h2>

@@ -9,48 +9,26 @@ class Clients extends Component {
 			        <section className="pt-20 pb-32">
 			          <div className="container mx-auto">
 			            <div className="flex flex-wrap justify-center text-center mb-24">
-			              <div className="w-full lg:w-8/12 md:w-6/12 px-6">
-			                <h2 className="text-4xl font-semibold">Our Clients and Partners</h2>
+			              <div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-6">
+			                <h2 className="text-4xl font-semibold">Our Partners</h2>
 			                <p className="text-lg leading-relaxed m-4 text-gray-600">
-			                  According to the National Oceanic and Atmospheric
-			                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-			                  potentially record maximum.
+			                  We are privileged to be trusted by our partners to deliver excellent products
 			                </p>
 			              </div>
 			            </div>
-			            <div className="flex flex-wrap">
+			            <div className="flex flex-wrap justify-center">
 			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
 			                <div className="px-2">
 			                  <img
 			                    alt="..."
 			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
-			                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-40 w-40"
 			                  />
 			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
+			                    <h5 className="text-xl font-bold">Shopify</h5>
 			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
 			                      Web Developer
 			                    </p>
-			                    <div className="mt-6">
-			                      <button
-			                        className="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-twitter"></i>
-			                      </button>
-			                      <button
-			                        className="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-facebook-f"></i>
-			                      </button>
-			                      <button
-			                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-dribbble"></i>
-			                      </button>
-			                    </div>
 			                  </div>
 			                </div>
 			              </div>
@@ -59,27 +37,13 @@ class Clients extends Component {
 			                  <img
 			                    alt="..."
 			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
-			                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-40 w-40"
 			                  />
 			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Romina Hadid</h5>
+			                    <h5 className="text-xl font-bold">MailChimp</h5>
 			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-			                      Marketing Specialist
+			                      Web Developer
 			                    </p>
-			                    <div className="mt-6">
-			                      <button
-			                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-google"></i>
-			                      </button>
-			                      <button
-			                        className="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-facebook-f"></i>
-			                      </button>
-			                    </div>
 			                  </div>
 			                </div>
 			              </div>
@@ -88,33 +52,13 @@ class Clients extends Component {
 			                  <img
 			                    alt="..."
 			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
-			                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-40 w-40"
 			                  />
 			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Alexa Smith</h5>
+			                    <h5 className="text-xl font-bold">ButterCMS</h5>
 			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-			                      UI/UX Designer
+			                      Web Developer
 			                    </p>
-			                    <div className="mt-6">
-			                      <button
-			                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-google"></i>
-			                      </button>
-			                      <button
-			                        className="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-twitter"></i>
-			                      </button>
-			                      <button
-			                        className="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-instagram"></i>
-			                      </button>
-			                    </div>
 			                  </div>
 			                </div>
 			              </div>
@@ -123,39 +67,43 @@ class Clients extends Component {
 			                  <img
 			                    alt="..."
 			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
-			                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-40 w-40"
 			                  />
 			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Jenna Kardi</h5>
+			                    <h5 className="text-xl font-bold">Digital Eagles AU</h5>
 			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-			                      Founder and CEO
+			                      Web Developer
 			                    </p>
-			                    <div className="mt-6">
-			                      <button
-			                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-dribbble"></i>
-			                      </button>
-			                      <button
-			                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-google"></i>
-			                      </button>
-			                      <button
-			                        className="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-twitter"></i>
-			                      </button>
-			                      <button
-			                        className="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-			                        type="button"
-			                      >
-			                        <i className="fab fa-instagram"></i>
-			                      </button>
-			                    </div>
+			                  </div>
+			                </div>
+			              </div>
+			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
+			                <div className="px-2 py-12 2xl:py-20 xl:py-20">
+			                  <img
+			                    alt="..."
+			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
+			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-40 w-40"
+			                  />
+			                  <div className="pt-6 text-center">
+			                    <h5 className="text-xl font-bold">Digital Ocean</h5>
+			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+			                      Web Developer
+			                    </p>
+			                  </div>
+			                </div>
+			              </div>
+			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
+			                <div className="px-2 py-12">
+			                  <img
+			                    alt="..."
+			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
+			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-40 w-40"
+			                  />
+			                  <div className="pt-6 text-center">
+			                    <h5 className="text-xl font-bold">Webflow</h5>
+			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+			                      Web Developer
+			                    </p>
 			                  </div>
 			                </div>
 			              </div>

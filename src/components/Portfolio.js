@@ -7,12 +7,10 @@ class Portfolio extends Component {
 		return (
 			<div className="bg-gray-300">
 	            <div className="container mx-auto justify-center text-center flex flex-wrap">
-		            <div className="w-full lg:w-8/12 md:w-6/12 px-8">
-		              <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
+		            <div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-8">
+		              <h2 className="font-semibold text-4xl">Some of our past works</h2>
 		              <p className="text-lg leading-relaxed mt-4 mb-20 text-gray-600">
-		                Notus React is a completly new product built using our past
-		                experience in web templates. Take the examples we made for you and
-		                start playing with them.
+		                Majority of our projects had a Non-Disclosure Agreement signed by both our client and us. In total, we have developed about 16 products in the past 2 years.
 		              </p>
 		            </div>
 	            </div>

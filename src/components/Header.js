@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class Header extends Component {
   render() {
     return (
-        <div className="pt-16 flex content-center items-center justify-center min-h-screen-75">
+        <div className="pt-18 flex content-center items-center justify-center min-h-screen-75">
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{

@@ -115,10 +115,10 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-                <form>
+                <form target="_blank" rel="noopener noreferrer">
                   <button
                     className="bg-green-500 text-gray-900 hover:bg-green-700 text-sm font-bold uppercase px-3 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                    type="submit" formAction="https://cutt.ly/GgTzQ1m" target="_blank" rel="noopener noreferrer">
+                    type="submit" formAction="https://cutt.ly/studio-discovery-call">
                     <i className="fas fa-phone-volume -pl-1 mr-1 px"></i> Book a Call
                   </button>
                 </form>

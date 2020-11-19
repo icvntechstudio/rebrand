@@ -5,7 +5,7 @@ import HubspotForm from 'react-hubspot-form'
 class Contact extends Component {
 	render() {
 		return (
-	        <section className="relative block py-20 lg:pt-0 bg-gray-900 mx-10">
+	        <section className="relative block py-20 lg:pt-0 bg-gray-900">
 	            <div className="container mx-auto">
 		            <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
 		                <div className="container w-full lg:w-full px-10">
@@ -20,7 +20,7 @@ class Contact extends Component {
 				                    </p>
 														<div className="">
 															<HubspotForm
-															className='px-auto'
+															className='responsive'
 															portalId='8728743'
 															formId='872e4a51-201b-4b51-8ac7-9a03eec561a1'
 															onSubmit={() => console.log('Submit!')}

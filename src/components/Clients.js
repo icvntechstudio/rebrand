@@ -55,9 +55,9 @@ class Clients extends Component {
 			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-30 w-40"
 			                  />
 			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">ButterCMS</h5>
+			                    <h5 className="text-xl font-bold">Lorem Ipsum</h5>
 			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-			                      Web Developer
+			                      Lorem Ipsum Dolor
 			                    </p>
 			                  </div>
 			                </div>

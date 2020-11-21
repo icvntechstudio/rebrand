@@ -18,7 +18,7 @@ class Header extends Component {
             ></span>
           </div>
           <div className="container relative mx-auto">
-            <div className="items-center flex flex-wrap pt-24">
+            <div className="items-center flex flex-wrap pt-32 mt-12">
               <div className="w-full lg:w-8/12 md:w-10/12 sm:w-10/12 xs:w-full mx-auto text-center">
                 <div className="">
                   <h1 className="text-white font-bold text-6xl">

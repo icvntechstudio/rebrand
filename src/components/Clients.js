@@ -62,66 +62,7 @@ class Clients extends Component {
 			                  </div>
 			                </div>
 			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
-			                <div className="px-2">
-			                  <img
-			                    alt="..."
-			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
-			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-30 w-40"
-			                  />
-			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Lorem Ipsum</h5>
-			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-			                      Lorem Ipsum Dolor
-			                    </p>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
-			                <div className="px-2 py-12 2xl:py-20 xl:py-20 lg:py-1">
-			                  <img
-			                    alt="..."
-			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
-			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-30 w-40"
-			                  />
-			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Lorem Ipsum</h5>
-			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-			                      Lorem Ipsum Dolor
-			                    </p>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
-			                <div className="px-2 py-12 2xl:py-20 xl:py-20 lg:py-1">
-			                  <img
-			                    alt="..."
-			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
-			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-30 w-40"
-			                  />
-			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Lorem Ipsum</h5>
-			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-			                      Lorem Ipsum Dolor
-			                    </p>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
-			                <div className="px-2 py-12 2xl:py-20 xl:py-20 lg:py-1">
-			                  <img
-			                    alt="..."
-			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
-			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-30 w-40"
-			                  />
-			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Lorem Ipsum</h5>
-			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-			                      Lorem Ipsum Dolor
-			                    </p>
-			                  </div>
-			                </div>
-			              </div>
+
 			            </div>
 			          </div>
 			        </section>

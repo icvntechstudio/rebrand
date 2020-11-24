@@ -25,8 +25,7 @@ class Header extends Component {
                     We build well-designed, conversion optimized products
                   </h1>
                   <p className="mt-3 text-xl px-4 text-gray-300">
-                    A design and technology studio turning pain points into design.
-                    We help startups launch fast.
+                    A design and development studio that help startups scale by turning pain points into design.
                   </p>{/* secure and converting websites */}
                 </div>
                 <div className="text-center mt-8 pb-16">

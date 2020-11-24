@@ -19,9 +19,9 @@ class Header extends Component {
           </div>
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap pt-32 mt-12">
-              <div className="w-full lg:w-8/12 md:w-10/12 sm:w-10/12 xs:w-full mx-auto text-center">
+              <div className="w-full lg:w-6/12 md:w-10/12 sm:w-8/12 xs:w-full mx-auto text-center">
                 <div className="">
-                  <h1 className="text-white font-bold text-6xl">
+                  <h1 className="text-white font-bold text-4xl sm:text-5xl md:text-5xl lg:text-6xl 2xl:text-6xl">
                     We build well-designed, conversion optimized products
                   </h1>
                   <p className="mt-3 text-xl px-4 text-gray-300">

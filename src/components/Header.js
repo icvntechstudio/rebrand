@@ -19,9 +19,9 @@ class Header extends Component {
           </div>
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap pt-32 mt-12">
-              <div className="w-full lg:w-6/12 md:w-10/12 sm:w-8/12 xs:w-full mx-auto text-center">
+              <div className="w-6/12 lg:w-8/12 xl:w-6/12 md:w-10/12 sm:w-full xs:w-full mx-auto text-center">
                 <div className="">
-                  <h1 className="text-white font-bold text-4xl sm:text-5xl md:text-5xl lg:text-6xl 2xl:text-6xl">
+                  <h1 className="text-white font-bold text-4xl sm:text-4xl md:text-4xl xl:text-6xl 2xl:text-6xl">
                     We build well-designed, conversion optimized products
                   </h1>
                   <p className="mt-3 text-xl px-4 text-gray-300">
@@ -31,7 +31,7 @@ class Header extends Component {
                 <div className="text-center mt-8 pb-16">
                   <form target="_blank" rel="noopener noreferrer">
                     <button
-                      className="bg-green-500 text-gray-900 hover:bg-green-700 text-lg font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      className="bg-green-500 text-red-500 hover:bg-green-700 text-lg font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                       type="submit" formAction="https://share.hsforms.com/1hy5KUSAbS1GKx5oD7sVhoQ57353"
                     >
                       Get in Touch

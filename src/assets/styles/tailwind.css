@@ -1091,10 +1091,6 @@ video {
   height: 5rem;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
 .h-40 {
   height: 10rem;
 }
@@ -1139,10 +1135,6 @@ video {
   font-size: 2.25rem;
 }
 
-.text-6xl {
-  font-size: 4rem;
-}
-
 .leading-none {
   line-height: 1;
 }
@@ -1176,6 +1168,11 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mt-0 {
@@ -1358,6 +1355,10 @@ video {
   padding: 0.75rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .p-8 {
   padding: 2rem;
 }
@@ -1426,11 +1427,6 @@ video {
   padding-right: 2.5rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -1439,6 +1435,11 @@ video {
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .py-20 {
@@ -1474,6 +1475,10 @@ video {
   padding-bottom: 2rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1486,8 +1491,8 @@ video {
   padding-top: 5rem;
 }
 
-.pt-24 {
-  padding-top: 6rem;
+.pt-32 {
+  padding-top: 8rem;
 }
 
 .pb-32 {
@@ -1572,6 +1577,12 @@ video {
   color: rgba(255, 255, 255, var(--text-opacity));
 }
 
+.text-gray-100 {
+  --text-opacity: 1;
+  color: #f7fafc;
+  color: rgba(247, 250, 252, var(--bg-opacity));
+}
+
 .text-gray-300 {
   --text-opacity: 1;
   color: #e2e8f0;
@@ -1612,6 +1623,12 @@ video {
   --text-opacity: 1;
   color: #1a202c;
   color: rgba(26, 32, 44, var(--text-opacity));
+}
+
+.text-red-500 {
+  --text-opacity: 1;
+  color: #f56565;
+  color: rgba(245, 101, 101, var(--text-opacity));
 }
 
 .text-green-500 {
@@ -1693,12 +1710,12 @@ video {
   width: 4rem;
 }
 
-.w-24 {
-  width: 6rem;
-}
-
 .w-40 {
   width: 10rem;
+}
+
+.w-6\/12 {
+  width: 50%;
 }
 
 .w-full {
@@ -1764,6 +1781,10 @@ video {
 }
 
 @media (min-width: 480px) {
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+  }
+
   .sm\:mt-32 {
     margin-top: 8rem;
   }
@@ -1781,10 +1802,6 @@ video {
     width: 50%;
   }
 
-  .sm\:w-10\/12 {
-    width: 83.333333%;
-  }
-
   .sm\:w-full {
     width: 100%;
   }
@@ -1793,6 +1810,10 @@ video {
 @media (min-width: 768px) {
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
   }
 
   .md\:mt-12 {
@@ -1952,14 +1973,13 @@ video {
 }
 
 @media (min-width: 1440px) {
+  .xl\:text-6xl {
+    font-size: 4rem;
+  }
+
   .xl\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
-  }
-
-  .xl\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
   }
 
   .xl\:w-6\/12 {
@@ -1970,4 +1990,3 @@ video {
     width: 66.666667%;
   }
 }
-

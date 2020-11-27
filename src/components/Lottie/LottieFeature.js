@@ -8,7 +8,7 @@ export default function LottieFeature({ lotti, width, height }) {
     autoplay: true,
     animationData: lotti,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
+      preserveAspectRatio: "none",
     },
   }
 

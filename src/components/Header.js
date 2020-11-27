@@ -6,7 +6,7 @@ class Header extends Component {
     return (
         <div className="pt-18 flex content-center items-center justify-center min-h-screen-75">
           <div
-            className="absolute top-0 w-full h-full bg-center bg-cover"
+            className="absolute top-0 w-full h-full bg-cover bg-fixed mx-auto"
             style={{
               backgroundImage:
                 "url('https://images.unsplash.com/photo-1605648916319-cf082f7524a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')",
@@ -31,7 +31,7 @@ class Header extends Component {
                 <div className="text-center mt-8 pb-16">
                   <form target="_blank" rel="noopener noreferrer">
                     <button
-                      className="bg-green-500 text-red-500 hover:bg-green-700 text-lg font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      className="bg-green-500 text-gray-900 hover:bg-green-700 text-lg font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                       type="submit" formAction="https://share.hsforms.com/1hy5KUSAbS1GKx5oD7sVhoQ57353"
                     >
                       Get in Touch

@@ -19,10 +19,10 @@ class Clients extends Component {
 			                </p>
 			              </div>
 			            </div>
-			            <div className="flex flex-wrap justify-center">
+			            <div className="flex flex-wrap justify-center items-center ">
 			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
-			                <div className="">
-												<LottieFeature className="p-3" lotti={shopify} height={120} width={120} />
+			                <div>
+												<LottieFeature lotti={shopify} height={160} width={140} />
 			                  <div className="pt-6 text-center">
 			                    <h5 className="text-xl font-bold">Shopify Partners</h5>
 			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
@@ -44,8 +44,8 @@ class Clients extends Component {
 			                </div>
 			              </div>
 			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
-			                <div className="">
-			                  <LottieFeature className="p-10" lotti={mailchimp} height={120} width={120} />
+			                <div>
+			                  <LottieFeature lotti={mailchimp} height={160} width={140} />
 			                  <div className="pt-6 text-center">
 			                    <h5 className="text-xl font-bold">Mailchimp & Co.</h5>
 			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">

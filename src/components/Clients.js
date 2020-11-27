@@ -19,7 +19,7 @@ class Clients extends Component {
 			            <div className="flex flex-wrap justify-center">
 			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
 			                <div className="px-2">
-			                  <img
+			                  <img					
 			                    alt="..."
 			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
 			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-30 w-40"

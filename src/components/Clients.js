@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import LottieFeature from '../components/Lottie/LottieFeature'
+import shopify from '../assets/lottie/shopify.json'
+import mailchimp from '../assets/lottie/mailchimp.json'
 
 
 class Clients extends Component {
@@ -17,45 +20,34 @@ class Clients extends Component {
 			              </div>
 			            </div>
 			            <div className="flex flex-wrap justify-center">
-			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
-			                <div className="px-2">
-			                  <img					
-			                    alt="..."
-			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
-			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-30 w-40"
-			                  />
+			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
+			                <div className="">
+												<LottieFeature className="p-3" lotti={shopify} height={120} width={120} />
 			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Lorem Ipsum</h5>
+			                    <h5 className="text-xl font-bold">Shopify Partners</h5>
 			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
 			                      Lorem Ipsum Dolor
 			                    </p>
 			                  </div>
 			                </div>
 			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 xs:w-1/2 xs:-px-5 lg:mb-0 mb-12 px-4">
-			                <div className="px-2">
-			                  <img
-			                    alt="..."
-			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
-			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-30 w-40"
+			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 xs:w-1/2 xs:-px-5 lg:mb-0 mb-12 px-8 p-6">
+			                <div className="-mb-7 -px-3">
+												<img alt="..." src="https://assets.freelancersunion.org/static/images/member-badge.5309fe6e0c7a.gif" className="shadow-lg rounded-full mx-auto max-w-120-px h-35 w-40"
 			                  />
 			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Lorem Ipsum</h5>
+			                    <h5 className="text-xl font-bold">Freelance Union</h5>
 			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
 			                      Lorem Ipsum Dolor
 			                    </p>
 			                  </div>
 			                </div>
 			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-4">
-			                <div className="px-2">
-			                  <img
-			                    alt="..."
-			                    src="https://img.icons8.com/fluent/48/000000/test-account.png"
-			                    className="shadow-lg rounded-full mx-auto max-w-120-px h-30 w-40"
-			                  />
+			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
+			                <div className="">
+			                  <LottieFeature className="p-10" lotti={mailchimp} height={120} width={120} />
 			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Lorem Ipsum</h5>
+			                    <h5 className="text-xl font-bold">Mailchimp & Co.</h5>
 			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
 			                      Lorem Ipsum Dolor
 			                    </p>

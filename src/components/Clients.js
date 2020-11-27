@@ -32,7 +32,7 @@ class Clients extends Component {
 			              </div>
 			              <div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
 			                <div>
-												<img className="mx-auto" src="https://assets.freelancersunion.org/static/images/member-badge.ec82f86413ea.svg" alt="Proud member of Freelancers Union" height="100" width="100" />
+												<img className="mx-auto" src="https://assets.freelancersunion.org/static/images/member-badge.dcf5a9180afa.png" alt="Proud member of Freelancers Union" height="110" width="100" />
 			                  <div className="pt-6 text-center">
 			                    <h5 className="text-xl font-bold">Freelance Union</h5>
 			                  </div>

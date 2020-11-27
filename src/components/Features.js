@@ -13,9 +13,9 @@ class Feature extends Component {
 				                <div className="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-2xl rounded-full">
 				                  <img src="https://img.icons8.com/color/48/000000/change-theme.png" alt="ui ux designer" />
 				                </div>
-				                <h6 className="text-xl font-semibold">Custom-fit UI/UX Design</h6>
+				                <h6 className="text-xl font-semibold">Web UX Design</h6>
 				                <p className="mt-2 mb-4 text-gray-600">
-				                  A dedicated UI/UX Designer that translates your defined user persona into a well thought-off design system.
+				                  A dedicated UX Designer that translates your defined user persona into a well thought-off design system.
 				                </p>
 				              </div>
 				            </div>
@@ -27,9 +27,9 @@ class Feature extends Component {
 				                <div className="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-2xl rounded-full">
 				                  <img src="https://img.icons8.com/fluent/48/000000/management.png" alt="administrator" />
 				                </div>
-				                <h6 className="text-xl font-semibold">Custom Admin Panel</h6>
+				                <h6 className="text-xl font-semibold">Systems Integration</h6>
 				                <p className="mt-2 mb-4 text-gray-600">
-				                  No more boring admin panels by default. We build you a custom admin panel that fit your everyday needs.
+				                  Finding the right system and embedding systems to improve everyday workflow
 				                </p>
 				              </div>
 				            </div>
@@ -41,9 +41,9 @@ class Feature extends Component {
 				                <div className="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-2xl rounded-full">
 				                  <img src="https://img.icons8.com/color/48/000000/web-shield.png" alt="security" />
 				                </div>
-				                <h6 className="text-xl font-semibold">Secured by Default</h6>
+				                <h6 className="text-xl font-semibold">Improvements & Growth</h6>
 				                <p className="mt-2 mb-4 text-gray-600">
-				                  All websites we develop are use by Cloudflare by default, no more untrusting websites that pushes customers away!
+				                  Affordable monthly retainers to improve your system for consistent growth
 				                </p>
 				              </div>
 				            </div>

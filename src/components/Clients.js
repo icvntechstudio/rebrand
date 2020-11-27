@@ -3,6 +3,7 @@ import LottieFeature from '../components/Lottie/LottieFeature'
 import shopify from '../assets/lottie/shopify.json'
 import mailchimp from '../assets/lottie/mailchimp.json'
 import digitalOcean from '../assets/lottie/digitalOcean.json'
+import digitalEagles from '../assets/lottie/digitalEagles.json'
 
 
 class Clients extends Component {
@@ -20,8 +21,8 @@ class Clients extends Component {
 			                </p>
 			              </div>
 			            </div>
-			            <div className="flex flex-wrap justify-center items-center ">
-			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
+			            <div className="flex flex-wrap justify-center items-center mx-auto p-8">
+			              <div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
 			                <div>
 												<LottieFeature lotti={shopify} height={110} width={100} />
 			                  <div className="pt-6 text-center">
@@ -29,7 +30,7 @@ class Clients extends Component {
 			                  </div>
 			                </div>
 			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
+			              <div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
 			                <div>
 												<img className="mx-auto" src="https://assets.freelancersunion.org/static/images/member-badge.ec82f86413ea.svg" alt="Proud member of Freelancers Union" height="100" width="100" />
 			                  <div className="pt-6 text-center">
@@ -37,7 +38,7 @@ class Clients extends Component {
 			                  </div>
 			                </div>
 			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
+			              <div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
 			                <div>
 			                  <LottieFeature lotti={mailchimp} height={110} width={100} />
 			                  <div className="pt-6 text-center">
@@ -45,11 +46,19 @@ class Clients extends Component {
 			                  </div>
 			                </div>
 			              </div>
-										<div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
+										<div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6 xs:mt-6 mt-12">
 			                <div>
-												<LottieFeature className="z-50" lotti={digitalOcean} height={110} width={110} />
+												<LottieFeature lotti={digitalOcean} height={110} width={110} />
 			                  <div className="pt-6 text-center">
 			                    <h5 className="text-xl font-bold">Digital Ocean</h5>
+			                  </div>
+			                </div>
+			              </div>
+										<div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6 mt-12">
+			                <div>
+												<LottieFeature lotti={digitalEagles} height={110} width={110} />
+			                  <div className="pt-6 text-center">
+			                    <h5 className="text-xl font-bold">Digital Eagles</h5>
 			                  </div>
 			                </div>
 			              </div>

@@ -1315,6 +1315,10 @@ video {
   max-width: 120px;
 }
 
+.max-w-200-px {
+  max-width: 200px;
+}
+
 .min-h-screen-75 {
   min-height: 75vh;
 }

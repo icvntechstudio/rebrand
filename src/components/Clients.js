@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import LottieFeature from '../components/Lottie/LottieFeature'
 import shopify from '../assets/lottie/shopify.json'
 import mailchimp from '../assets/lottie/mailchimp.json'
+import digitalOcean from '../assets/lottie/digitalOcean.json'
 
 
 class Clients extends Component {
@@ -22,39 +23,36 @@ class Clients extends Component {
 			            <div className="flex flex-wrap justify-center items-center ">
 			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
 			                <div>
-												<LottieFeature lotti={shopify} height={160} width={140} />
+												<LottieFeature lotti={shopify} height={100} width={100} />
 			                  <div className="pt-6 text-center">
 			                    <h5 className="text-xl font-bold">Shopify Partners</h5>
-			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-			                      Lorem Ipsum Dolor
-			                    </p>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 xs:w-1/2 xs:-px-5 lg:mb-0 mb-12 px-8 p-6">
-			                <div className="-mb-7 -px-3">
-												<img alt="..." src="https://assets.freelancersunion.org/static/images/member-badge.5309fe6e0c7a.gif" className="shadow-lg rounded-full mx-auto max-w-120-px h-35 w-40"
-			                  />
-			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Freelance Union</h5>
-			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-			                      Lorem Ipsum Dolor
-			                    </p>
 			                  </div>
 			                </div>
 			              </div>
 			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
 			                <div>
-			                  <LottieFeature lotti={mailchimp} height={160} width={140} />
+												<img className="mx-auto" src="https://assets.freelancersunion.org/static/images/member-badge.ec82f86413ea.svg" alt="Proud member of Freelancers Union" height="100" width="100" />
 			                  <div className="pt-6 text-center">
-			                    <h5 className="text-xl font-bold">Mailchimp & Co.</h5>
-			                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-			                      Lorem Ipsum Dolor
-			                    </p>
+			                    <h5 className="text-xl font-bold">Freelance Union</h5>
 			                  </div>
 			                </div>
 			              </div>
-
+			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
+			                <div>
+			                  <LottieFeature lotti={mailchimp} height={100} width={100} />
+			                  <div className="pt-6 text-center">
+			                    <h5 className="text-xl font-bold">Mailchimp & Co.</h5>
+			                  </div>
+			                </div>
+			              </div>
+										<div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
+			                <div>
+												<LottieFeature className="z-50" lotti={digitalOcean} height={100} width={100} />
+			                  <div className="pt-6 text-center">
+			                    <h5 className="text-xl font-bold">Digital Ocean</h5>
+			                  </div>
+			                </div>
+			              </div>
 			            </div>
 			          </div>
 			        </section>

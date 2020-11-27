@@ -23,7 +23,7 @@ class Clients extends Component {
 			            <div className="flex flex-wrap justify-center items-center ">
 			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
 			                <div>
-												<LottieFeature lotti={shopify} height={100} width={100} />
+												<LottieFeature lotti={shopify} height={110} width={100} />
 			                  <div className="pt-6 text-center">
 			                    <h5 className="text-xl font-bold">Shopify Partners</h5>
 			                  </div>
@@ -39,7 +39,7 @@ class Clients extends Component {
 			              </div>
 			              <div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
 			                <div>
-			                  <LottieFeature lotti={mailchimp} height={100} width={100} />
+			                  <LottieFeature lotti={mailchimp} height={110} width={100} />
 			                  <div className="pt-6 text-center">
 			                    <h5 className="text-xl font-bold">Mailchimp & Co.</h5>
 			                  </div>
@@ -47,7 +47,7 @@ class Clients extends Component {
 			              </div>
 										<div className="w-full md:w-6/12 lg:w-3/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
 			                <div>
-												<LottieFeature className="z-50" lotti={digitalOcean} height={100} width={100} />
+												<LottieFeature className="z-50" lotti={digitalOcean} height={110} width={110} />
 			                  <div className="pt-6 text-center">
 			                    <h5 className="text-xl font-bold">Digital Ocean</h5>
 			                  </div>

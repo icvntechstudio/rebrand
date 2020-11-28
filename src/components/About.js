@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class About extends Component {
 	render() {
 		return (
-        <section className="relative py-20 pb-40 px-8">
+        <section className="relative py-20 pb-40 px-8" id="about">
           <div className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20" style={{ transform: "translateZ(0)" }}>
             <svg
               className="absolute bottom-0 overflow-hidden"

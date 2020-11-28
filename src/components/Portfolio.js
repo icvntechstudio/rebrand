@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 class Portfolio extends Component {
 	render() {
 		return (
-			<div className="bg-gray-300">
+			<div className="bg-gray-300" id="portfolio">
 	            <div className="container mx-auto justify-center text-center flex flex-wrap">
 		            <div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-8">
 		              <h2 className="font-semibold text-4xl">Some of our past works</h2>

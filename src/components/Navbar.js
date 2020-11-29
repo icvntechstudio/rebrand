@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from './Logo'
 
 
 export default function Navbar(props) {
@@ -14,7 +13,7 @@ export default function Navbar(props) {
               className="text-white text-2xl mr-4 font-bold leading-relaxed inline-block py-2 whitespace-no-wrap uppercase"
               to="/"
             >
-              <Logo />
+              ICVN Tech Studio
             </Link>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"

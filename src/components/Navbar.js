@@ -8,7 +8,7 @@ export default function Navbar(props) {
     <>
       <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-4 py-3 navbar-expand-lg">
         <div className="container mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start mt-48">
+          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
               className="text-white text-2xl mr-4 font-bold leading-relaxed inline-block py-2 whitespace-no-wrap uppercase"
               to="/"

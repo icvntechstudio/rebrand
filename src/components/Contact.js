@@ -4,6 +4,9 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { getDay, addMonths } from 'date-fns'
 
+const optionsWidth = {
+  width: '50vw',
+};
 
 export default function Contact() {
 	const [formData, setFormData] = useState({})
@@ -13,7 +16,6 @@ export default function Contact() {
     const day = getDay(date);
     return day !== 0 && day !== 6;
   };
-
 
 	const services = [
 		{ value: 'shopify', label: 'Shopify Development' },
@@ -49,7 +51,7 @@ export default function Contact() {
 	}
 
 	return (
-		<section className="relative block py-20 lg:pt-0 bg-gray-900">
+		<section className="static block py-20 lg:pt-0 bg-gray-900">
 	    <div className="container mx-auto px-4">
 		    <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
 		      <div className="w-full lg:w-6/12 px-4">
@@ -101,6 +103,7 @@ export default function Contact() {
                     placeholder="Last Name"
                   />
 								</div>
+
 								<div className="relative w-full mb-3 mt-8">
 								  <label
                     className="block uppercase text-gray-700 text-xs font-bold mb-2"
@@ -122,9 +125,22 @@ export default function Contact() {
                     Project Timeline
                   </label>
 									<DatePicker
-										className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" selected={startDate} onChange={date => setStartDate(date)} minDate={new Date()} maxDate={addMonths(new Date(), 2)} filterDate={isWeekday} isClearable showDisabledMonthNavigation/>
+										className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline ease-linear transition-all duration-150" selected={startDate} onChange={date => setStartDate(date)} minDate={new Date()} maxDate={addMonths(new Date(), 2)} filterDate={isWeekday} isClearable showDisabledMonthNavigation/>
 								</div>
-							</form>
+								<div className="relative w-full mb-3 mt-8">
+									<label
+                    className="block uppercase text-gray-700 text-xs font-bold mb-2  mt-8"
+                    htmlFor="datepicker"
+                  >
+                    Project Budget
+                  </label>
+                  <input
+                    type="email"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
+                    placeholder="We usually get projects at $10.00-$20.00 USD/hour or $700.00 - $4,000.00 USD per project. No more, no less."
+                  />
+								</div>
+							  </form>
 			        </div>
 			    	</div>
 		    	</div>

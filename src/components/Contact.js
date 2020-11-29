@@ -2,23 +2,18 @@ import React, { useState } from 'react'
 import Select from 'react-select'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { getDay, addMonths } from 'date-fns'
 
 
 export default function Contact() {
 	const [formData, setFormData] = useState({})
 	const [startDate, setStartDate] = useState(new Date());
-	const [endDate, setEndDate] = useState(null)
 
   const isWeekday = date => {
-    const day = new Date(date);
+    const day = getDay(date);
     return day !== 0 && day !== 6;
-	};
-
-  const onChange = dates => {
-    const [start, end] = dates;
-    setStartDate(start);
-    setEndDate(end);
   };
+
 
 	const services = [
 		{ value: 'shopify', label: 'Shopify Development' },
@@ -127,7 +122,7 @@ export default function Contact() {
                     Project Timeline
                   </label>
 									<DatePicker
-										className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" selected={startDate} onChange={onChange} filterDate={isWeekday} startDate={startDate} minDate={new Date()} endDate={endDate} selectsRange isClearable inline />
+										className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" selected={startDate} onChange={date => setStartDate(date)} minDate={new Date()} maxDate={addMonths(new Date(), 2)} filterDate={isWeekday} isClearable showDisabledMonthNavigation/>
 								</div>
 							</form>
 			        </div>

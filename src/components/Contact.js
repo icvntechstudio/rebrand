@@ -1,9 +1,24 @@
 import React, { useState } from 'react'
 import Select from 'react-select'
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 
 export default function Contact() {
 	const [formData, setFormData] = useState({})
+	const [startDate, setStartDate] = useState(new Date());
+	const [endDate, setEndDate] = useState(null)
+
+  const isWeekday = date => {
+    const day = new Date(date);
+    return day !== 0 && day !== 6;
+	};
+
+  const onChange = dates => {
+    const [start, end] = dates;
+    setStartDate(start);
+    setEndDate(end);
+  };
 
 	const services = [
 		{ value: 'shopify', label: 'Shopify Development' },
@@ -51,8 +66,7 @@ export default function Contact() {
 				        <p className="leading-relaxed mt-2 mb-4 text-gray-600 text-center text-lg">
 				          Complete this form and we will get back to you in 24 hours.
 				        </p>
-			        </div>
-							<form className="input-form" name="contact" required onSubmit={sendData}>
+								<form className="input-form" name="contact" required onSubmit={sendData}>
 							  <div className="relative w-full mb-3 mt-8">
 								  <label
                     className="block uppercase text-gray-700 text-xs font-bold mb-2"
@@ -100,12 +114,23 @@ export default function Contact() {
                     Service Needed
                   </label>
 									<Select
-										className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
+										className="px-3 py-1 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
 										onChange={handleInput}
 										options={services}
 									/>
 								</div>
+								<div className="relative w-full mb-3 mt-8">
+								  <label
+                    className="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    htmlFor="datepicker"
+                  >
+                    Project Timeline
+                  </label>
+									<DatePicker
+										className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" selected={startDate} onChange={onChange} filterDate={isWeekday} startDate={startDate} minDate={new Date()} endDate={endDate} selectsRange isClearable inline />
+								</div>
 							</form>
+			        </div>
 			    	</div>
 		    	</div>
 		  	</div>

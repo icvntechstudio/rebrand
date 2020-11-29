@@ -51,21 +51,3 @@
     "typescript": "4.0.3"
   }
 }
-
-query Header {
-  homePageCollection(limit: 6) {
-    items {
-      header{
-        headerTitle,
-        headerSubtitle,
-        headerImage{
-          backgroundimage{
-            url
-          }
-        },
-        buttonText,
-        buttonLink,
-      }
-    }
-  }
-}

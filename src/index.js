@@ -7,13 +7,23 @@ import "assets/styles/tailwind.css";
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { GraphQLClient, ClientContext } from 'graphql-hooks'
+
+const client = new GraphQLClient({
+  url: "https://graphql.datocms.com/",
+  headers: {
+    "Authorization": "Bearer REACT_APP_DATO_API_TOKEN"
+  }
+})
 
 ReactDOM.render(
   <BrowserRouter>
-  	<Switch>
-    	<Route path="/" exact component={App} />
-    	<Redirect from="*" to="/" />
-    </Switch>
+    <ClientContext.Provider value={client}>
+      <Switch>
+        <Route path="/" exact component={App} />
+        <Redirect from="*" to="/" />
+      </Switch>
+    </ClientContext.Provider>
   </BrowserRouter>,
   document.getElementById('root')
 );

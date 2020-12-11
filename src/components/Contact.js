@@ -31,7 +31,7 @@ export default function Contact() {
 		e.preventDefault()
 		try {
 			const response = await fetch(
-				"https://v1.nocodeapi.com/vgreyes/airtable/sKFLOPcLejLRbplo?tableName=inquiries",
+				"c",
 				{
 					method: "POST",
 					body: JSON.stringify([formData]),

@@ -4,9 +4,6 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { getDay, addMonths } from 'date-fns'
 
-const optionsWidth = {
-  width: '50vw',
-};
 
 export default function Contact() {
 	const [formData, setFormData] = useState({})

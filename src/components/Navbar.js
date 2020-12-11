@@ -90,24 +90,6 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://dev.to/highcenburg" target="_blank" rel="noopener noreferrer">
-                  <i className="lg:text-gray-300 text-gray-500 fab fa-dev text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">DEV.to</span>
-                </a>
-              </li>
-
-              <li className="flex items-center">
-                <a
-                  className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.facebook.com/highcenbugtv" target="_blank" rel="noopener noreferrer">
-                  <i className="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Facebook</span>
-                </a>
-              </li>
-
-              <li className="flex items-center">
-                <a
-                  className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://twitter.com/highcenburg" target="_blank" rel="noopener noreferrer">
                   <i className="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Twitter</span>

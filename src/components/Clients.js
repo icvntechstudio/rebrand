@@ -22,7 +22,7 @@ class Clients extends Component {
 			              </div>
 			            </div>
 			            <div className="flex flex-wrap justify-center items-center mx-auto p-8">
-			              <div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
+			              <div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6 mt-12">
 			                <div>
 												<LottieFeature lotti={shopify} height={110} width={100} />
 			                  <div className="pt-6 text-center">
@@ -30,7 +30,7 @@ class Clients extends Component {
 			                  </div>
 			                </div>
 			              </div>
-			              <div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
+			              <div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6 mt-12">
 			                <div>
 												<img className="mx-auto" src="https://assets.freelancersunion.org/static/images/member-badge.dcf5a9180afa.png" alt="Proud member of Freelancers Union" height="110" width="100" />
 			                  <div className="pt-6 text-center">
@@ -38,7 +38,7 @@ class Clients extends Component {
 			                  </div>
 			                </div>
 			              </div>
-			              <div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6">
+			              <div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6 mt-12">
 			                <div>
 			                  <LottieFeature lotti={mailchimp} height={110} width={100} />
 			                  <div className="pt-6 text-center">
@@ -46,7 +46,7 @@ class Clients extends Component {
 			                  </div>
 			                </div>
 			              </div>
-										<div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6 xs:mt-6 mt-12">
+										<div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6 mt-12">
 			                <div>
 												<LottieFeature lotti={digitalOcean} height={110} width={110} />
 			                  <div className="pt-6 text-center">

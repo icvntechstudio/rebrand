@@ -33,7 +33,7 @@ function Header() {
                 </h1>
                 <p className="mt-3 text-xl px-4 text-gray-300">
                   {data.header.headerSubtitle}
-                </p>{/* secure and converting websites */}
+                </p>
               </div>
               <div className="text-center mt-8 pb-16">
                 <form target="_blank" rel="noopener noreferrer">

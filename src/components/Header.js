@@ -31,7 +31,7 @@ function Header() {
                 <h1 className="text-white font-bold text-4xl sm:text-4xl md:text-4xl xl:text-6xl 2xl:text-6xl">
                   {data.header.headerTitle}
                 </h1>
-                <p className="mt-3 text-xl px-4 text-gray-300">
+                <p className="mt-3 text-xl px-4 text-white">
                   {data.header.headerSubtitle}
                 </p>
               </div>

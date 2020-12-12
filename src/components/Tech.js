@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-
+import LeftTech from './LeftTech'
+import RightTech from './RightTech'
 
 class Tech extends Component {
 	render() {
@@ -52,58 +53,8 @@ class Tech extends Component {
 		      	</div>
 			      <div className="w-full xs:w-full sm:w-full md:w-6/12 lg:w-6/12 xl:w-6/12 2xl:px-16 xl:px-12 lg:px-10 px-6 md:px-4 sm:px-4 xs:px-12 mr-auto ml-auto xs:mt-32 sm:mt-32 md:mt-12">
 			        <div className="justify-center flex flex-wrap relative">
-			          <div className="my-4 w-full px-4 lg:w-6/12 sm:w-6/12 xs:px-0">
-			            <a href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index" target="_blank" rel="noopener noreferrer">
-				            <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
-				              <img alt="..." className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg" />
-				              <p className="text-lg text-white mt-4 font-semibold">
-				                Svelte
-				              </p>
-				            </div>
-			            </a>
-			            <a href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index" target="_blank" rel="noopener noreferrer">
-										<div className="bg-blue-500 shadow-lg rounded-lg text-center p-8 mt-8">
-											<img alt="..." className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg" />
-											<p className="text-lg text-white mt-4 font-semibold">
-													ReactJS
-												</p>
-										</div>
-			            </a>
-									<a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index" target="_blank" rel="noopener noreferrer" >
-			              <div className="bg-gray-800 shadow-lg rounded-lg text-center p-8 mt-8">
-			                <img alt="..." className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg" />
-			                <p className="text-lg text-white mt-4 font-semibold">
-			                  NextJS
-			                </p>
-			              </div>
-			            </a>
-			          </div>
-			          <div className="my-4 w-full px-4 lg:w-6/12 sm:w-6/12 lg:mt-16">
-			            <a href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index" target="_blank" rel="noopener noreferrer">
-			              <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
-			                <img alt="..." className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png" />
-			                <p className="text-lg text-white mt-4 font-semibold">
-			                  JavaScript
-			                </p>
-			              </div>
-			            </a>
-			            <a href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index" target="_blank" rel="noopener noreferrer">
-			              <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
-			                <img alt="..." className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg" />
-			                  <p className="text-lg text-white mt-4 font-semibold">
-			                    Angular
-			                  </p>
-			              </div>
-			            </a>
-			            <a href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index" target="_blank" rel="noopener noreferrer">
-			              <div className="bg-green-500 shadow-lg rounded-lg text-center p-8 mt-8">
-			                <img alt="..." className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg" />
-			                <p className="text-lg text-white mt-4 font-semibold">
-			                  Vue.js
-			                </p>
-			              </div>
-			            </a>
-			          </div>
+			          <LeftTech />
+			          <RightTech />
 			        </div>
 			      </div>
 		      </div>

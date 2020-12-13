@@ -19,7 +19,6 @@ export default function Feature() {
 
 	if (loading) return ""
 	if (error) return ""
-
 			return(
 			<div className="pb-12 bg-gray-300">
 				<div className="container mx-auto px-4">

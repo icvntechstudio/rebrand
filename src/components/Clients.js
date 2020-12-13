@@ -19,8 +19,8 @@ export default function Clients() {
 		}
 	})
 
-	if (loading) return "Loading..."
-	if (error) return "Something Bad Happened"
+  if (loading) return ""
+  if (error) return " "
 
 	return (
 		<div className="bg-gray-300">

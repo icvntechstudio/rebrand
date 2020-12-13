@@ -18,8 +18,8 @@ export default function LeftTech() {
     }
   })
 
-  if (loading) return "Loading..."
-  if (error) return "Sam Ting Wong..."
+  if (loading) return ""
+  if (error) return " "
 
   return (
     <div className="w-full px-4 lg:w-6/12 sm:w-6/12" >

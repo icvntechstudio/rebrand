@@ -20,8 +20,8 @@ export default function Portfolio() {
 		}
 	})
 
-	if (loading) return "Loading..."
-	if (error) return "Check the logs for error"
+  if (loading) return ""
+  if (error) return " "
 
 	return (
 		<div className="bg-gray-300" id="portfolio">

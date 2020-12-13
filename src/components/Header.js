@@ -18,8 +18,8 @@ function Header() {
     }
   })
 
-  if (loading) return "Loading..."
-  if (error) return "Something's Not Right"
+  if (loading) return ""
+  if (error) return " "
 
   return (
       <div className="pt-18 flex content-center items-center justify-center min-h-screen-75">

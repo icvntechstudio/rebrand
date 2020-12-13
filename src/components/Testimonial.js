@@ -21,8 +21,8 @@ export default function Testimonial() {
 		}
 	})
 
-	if (loading) return "Loading..."
-	if (error) return "Yo sorry about that."
+  if (loading) return ""
+  if (error) return " "
 
 	return(
 		<div className="bg-gray-300 px-6">

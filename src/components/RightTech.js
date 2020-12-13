@@ -22,7 +22,7 @@ export default function LeftTech() {
   if (error) return "Sam Ting Wong..."
 
   return (
-    <div className="my-4 w-full px-4 lg:w-6/12 sm:w-6/12 lg:mt-16" >
+    <div className="w-full px-4 lg:w-6/12 sm:w-6/12 lg:mt-16 xs:mt-0" >
       {data.allTechStacks.map(left => (
         <div key={left.id}>
           <a href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index" target="_blank" rel="noopener noreferrer">

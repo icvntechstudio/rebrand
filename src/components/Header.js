@@ -26,9 +26,9 @@ function Header() {
         <HeaderImage />
         <div className="container relative mx-auto">
           <div className="items-center flex flex-wrap pt-32 mt-12">
-            <div className="w-6/12 lg:w-8/12 xl:w-6/12 md:w-10/12 sm:w-full xs:w-full mx-auto text-center">
+            <div className="w-8/12 lg:w-8/12 xl:w-6/12 2xl:w-6/12 md:w-10/12 sm:w-full xs:w-full mx-auto text-center">
               <div className="">
-                <h1 className="text-white font-bold text-4xl sm:text-4xl md:text-4xl xl:text-6xl 2xl:text-6xl">
+                <h1 className="text-white font-bold text-4xl sm:text-4xl md:text-4xl lg:text-6xl xl:text-6xl 2xl:text-6xl">
                   {data.header.headerTitle}
                 </h1>
                 <p className="mt-3 text-xl px-4 text-white">

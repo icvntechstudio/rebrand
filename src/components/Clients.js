@@ -8,6 +8,10 @@ const PARTNER_QUERY = `query {
     name
     icon
     website
+	}
+  partnerHeading {
+    title
+    subtitle
   }
 }`
 
@@ -23,15 +27,16 @@ export default function Clients() {
   if (error) return " "
 
 	return (
+		<>
 		<div className="bg-gray-300">
 			<div className="container mx-auto">
 				<section className="pt-20 pb-32">
 					<div className="container mx-auto" id="about">
 						<div className="flex flex-wrap justify-center text-center mb-24">
 							<div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-6">
-								<h2 className="text-4xl font-semibold">Our Partners</h2>
+								<h2 className="text-4xl font-semibold">{data.partnerHeading.title}</h2>
 								<p className="text-lg leading-relaxed m-4 text-gray-600">
-			            We are privileged to be trusted by our partners to help us deliver excellence
+			            {data.partnerHeading.subtitle}
 			          </p>
 							</div>
 						</div>
@@ -51,5 +56,6 @@ export default function Clients() {
 				</section>
 			</div>
 		</div>
+		</>
 	)
 }

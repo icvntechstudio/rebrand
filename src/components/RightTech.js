@@ -22,6 +22,7 @@ export default function LeftTech() {
   if (error) return ""
 
   return (
+    <>
     <div className="w-full px-4 lg:w-6/12 sm:w-6/12 lg:mt-16 xs:mt-0" >
       {data.allTechStacks.map(left => (
         <div key={left.id}>
@@ -36,5 +37,6 @@ export default function LeftTech() {
         </div>
       ))}
     </div>
+    </>
   )
 }

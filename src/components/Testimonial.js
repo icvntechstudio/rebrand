@@ -12,6 +12,10 @@ const TESTIMONIAL_QUERY = `query {
     clientRole
     clientTestimonial
   }
+  testimonialHeading{
+    title
+    subtitle
+  }
 }`
 
 export default function Testimonial() {
@@ -25,13 +29,14 @@ export default function Testimonial() {
   if (error) return " "
 
 	return(
+		<>
 		<div className="bg-gray-300 px-6">
 			<div className="mb-24">
 				<div className="container mx-auto flex flex-wrap justify-center text-center">
 					<div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-8">
-						<h1 className="font-semibold text-4xl">Testimonials</h1>
+						<h1 className="font-semibold text-4xl">{data.testimonialHeading.title}</h1>
 						<p className="text-lg leading-relaxed mt-4 mb-20 text-gray-600">
-	            Notus React is a completly new product built using our past experience in web templates. Take the examples we made for you and start playing with them.
+	            {data.testimonialHeading.subtitle}
 	          </p>
 					</div>
 					<div className="flex flex-wrap m-4 container mx-auto">
@@ -55,5 +60,6 @@ export default function Testimonial() {
 				</div>
 			</div>
 		</div>
+		</>
 	)
 }

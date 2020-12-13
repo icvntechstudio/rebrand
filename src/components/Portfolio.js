@@ -10,6 +10,10 @@ const PORTFOLIO_QUERY = `query {
     }
     website
   }
+  portfolioHeading{
+    title
+    subtitle
+  }
 }`
 
 
@@ -24,12 +28,13 @@ export default function Portfolio() {
   if (error) return " "
 
 	return (
+		<>
 		<div className="bg-gray-300" id="portfolio">
 	    <div className="container mx-auto justify-center text-center flex flex-wrap">
 		    <div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-8">
-		      <h2 className="font-semibold text-4xl">Some of our past works</h2>
+		      <h2 className="font-semibold text-4xl">{data.portfolioHeading.title}</h2>
 		      <p className="text-lg leading-relaxed mt-4 mb-20 text-gray-600">
-		        Majority of our projects had a Non-Disclosure Agreement signed by both our client and us. In total, we have developed about 16 products in the past 2 years.
+		        {data.portfolioHeading.subtitle}
 		      </p>
 		    </div>
 	    </div>
@@ -55,5 +60,6 @@ export default function Portfolio() {
 		    </div>
 	    </div>
     </div>
+		</>
 	)
 }

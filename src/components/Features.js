@@ -1,4 +1,3 @@
-
 import LottieFeature from '../components/Lottie/LottieFeature'
 import { useQuery } from 'graphql-hooks'
 
@@ -19,7 +18,8 @@ export default function Feature() {
 
 	if (loading) return ""
 	if (error) return ""
-			return(
+		return(
+		<>
 			<div className="pb-12 bg-gray-300">
 				<div className="container mx-auto px-4">
 			        <div className="flex flex-wrap" id="features">
@@ -41,5 +41,6 @@ export default function Feature() {
 			        </div>
 			    </div>
 			</div>
+		</>
 		)
 }

@@ -1,9 +1,33 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { useQuery } from "graphql-hooks"
 
 
-class Services extends Component {
-	render() {
-		return (
+const SOLUTION_QUERY = `query {
+  allSolutions{
+    title
+    description
+    icon{
+      url
+    }
+	}
+  solutionHeading{
+    title
+    subtitle
+  }
+}`
+
+export default function Services() {
+	const { loading, error, data } = useQuery(SOLUTION_QUERY, {
+		variables: {
+			limit: 3
+		}
+	})
+
+	if (loading) return ""
+	if (error) return ""
+
+	return (
+		<>
 	        <section className="pb-32 relative block bg-gray-900" id="solutions">
 	          <div className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20" style={{ transform: "translateZ(0)" }}>
 	            <svg
@@ -24,57 +48,30 @@ class Services extends Component {
 	            <div className="flex flex-wrap text-center justify-center">
 	              <div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-4">
 	                <h2 className="text-4xl font-semibold text-white">
-	                  Build something
+	                  {data.solutionHeading.title}
 	                </h2>
 	                <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-	                  Put the potentially record low maximum sea ice extent tihs
-	                  year down to low ice. According to the National Oceanic and
-	                  Atmospheric Administration, Ted, Scambos.
+	                  {data.solutionHeading.subtitle}
 	                </p>
 	              </div>
 	            </div>
 	            <div className="flex flex-wrap mt-12 justify-center">
+								{data.allSolutions.map((solution) => (
 	              <div className="w-full lg:w-4/12 px-4 text-center">
 	                <div className="text-gray-900 p-3 w-16 h-16 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
 	                  <i className="fas fa-medal text-2xl"></i>
 	                </div>
 	                <h6 className="text-xl mt-5 font-semibold text-white">
-	                  Excelent Services
+	                  {solution.title}
 	                </h6>
 	                <p className="mt-2 mb-4 text-gray-500">
-	                  Some quick example text to build on the card title and make up
-	                  the bulk of the card's content.
+	                  {solution.description}
 	                </p>
 	              </div>
-	              <div className="w-full lg:w-4/12 px-4 text-center">
-	                <div className="text-gray-900 p-3 w-16 h-16 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-	                  <i className="fas fa-poll text-2xl"></i>
-	                </div>
-	                <h5 className="text-xl mt-5 font-semibold text-white">
-	                  Grow your market
-	                </h5>
-	                <p className="mt-2 mb-4 text-gray-500">
-	                  Some quick example text to build on the card title and make up
-	                  the bulk of the card's content.
-	                </p>
-	              </div>
-	              <div className="w-full lg:w-4/12 px-4 text-center">
-	                <div className="text-gray-900 p-3 w-16 h-16 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-	                  <i className="fas fa-lightbulb text-2xl"></i>
-	                </div>
-	                <h5 className="text-xl mt-5 font-semibold text-white">
-	                  Launch time
-	                </h5>
-	                <p className="mt-2 mb-4 text-gray-500">
-	                  Some quick example text to build on the card title and make up
-	                  the bulk of the card's content.
-	                </p>
-	              </div>
+								))}
 	            </div>
 	          </div>
 	        </section>
-		)
-	}
+		</>
+	)
 }
-
-export default Services

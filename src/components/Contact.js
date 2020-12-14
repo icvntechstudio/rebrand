@@ -1,37 +1,21 @@
 import React, { useState } from 'react'
-import Select from 'react-select'
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import { getDay, addMonths } from 'date-fns'
 
 
 export default function Contact() {
 	const [formData, setFormData] = useState({})
-	const [startDate, setStartDate] = useState(new Date());
+	const [message, setMessage] = useState("");
 
-  const isWeekday = date => {
-    const day = getDay(date);
-    return day !== 0 && day !== 6;
-  };
-
-	const services = [
-		{ value: 'shopify', label: 'Shopify Development' },
-		{ value: 'uxd', label: 'UX Design' },
-		{ value: 'api', label: 'System Integration' },
-		{ value: 'marketing', label: 'Marketing Campaign Management' },
-	]
-
-	const handleInput = (e) => {
-		const pushFormData = { ...formData }
-		pushFormData[e.target.name] = e.target.value
-		setFormData(pushFormData)
+	const handleInput = e => {
+		const copyFormData = { ...formData }
+		copyFormData[e.target.name] = e.target.value
+		setFormData(copyFormData)
 	}
 
-	const sendData = async (e) => {
+	const sendData = async e => {
 		e.preventDefault()
 		try {
 			const response = await fetch(
-				"c",
+				(process.env.REACT_APP_AIRTABLE_API_ENDPOINT),
 				{
 					method: "POST",
 					body: JSON.stringify([formData]),
@@ -42,16 +26,19 @@ export default function Contact() {
 			)
 			const json = await response.json()
 			console.log("Success:", JSON.stringify(json))
+			setMessage("Success")
 		} catch (error) {
 			console.log("Error:", error)
+			setMessage("Error")
 		}
 	}
 
 	return (
+		<>
 		<section className="static block py-20 lg:pt-0 bg-gray-900">
 	    <div className="container mx-auto px-4">
 		    <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-		      <div className="w-full lg:w-6/12 px-4">
+		      <div className="w-full lg:w-8/12 px-4">
 			      <div className="relative flex flex-auto min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300 px-4 py-8">
 			        <div className="flex-auto py-5 lg:p-10">
 				        <h4 className="text-4xl font-bold text-center">
@@ -60,7 +47,20 @@ export default function Contact() {
 				        <p className="leading-relaxed mt-2 mb-4 text-gray-600 text-center text-lg">
 				          Complete this form and we will get back to you in 24 hours.
 				        </p>
-								<form className="input-form" name="contact" required onSubmit={sendData}>
+								<form className="input-form" name="contact" id="contact" required onSubmit={sendData}>
+								<div className="relative w-full mb-3 mt-8">
+								  <label
+                    className="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    htmlFor="first-name"
+                  >
+                    Name
+                  </label>
+									<input
+                    type="text"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
+                    placeholder="Your Name" name="name" onChange={handleInput}
+                  />
+								</div>
 							  <div className="relative w-full mb-3 mt-8">
 								  <label
                     className="block uppercase text-gray-700 text-xs font-bold mb-2"
@@ -71,72 +71,28 @@ export default function Contact() {
 									<input
                     type="email"
                     className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                    placeholder="name@company.com"
+                    placeholder="name@company.com" name="email" onChange={handleInput}
                   />
 								</div>
 								<div className="relative w-full mb-3 mt-8">
 								  <label
                     className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                    htmlFor="first-name"
+                    htmlFor="message"
                   >
-                    First Name
+                    Message
                   </label>
-									<input
-                    type="text"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                    placeholder="First Name"
-                  />
+                   <textarea className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" rows="3" placeholder="Your message" name="message" onChange={handleInput} />
 								</div>
 								<div className="relative w-full mb-3 mt-8">
-								  <label
-                    className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                    htmlFor="last-name"
-                  >
-                    Last Name
-                  </label>
-									<input
-                    type="text"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                    placeholder="Last Name"
-                  />
-								</div>
-
-								<div className="relative w-full mb-3 mt-8">
-								  <label
-                    className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                    htmlFor="select"
-                  >
-                    Service Needed
-                  </label>
-									<Select
-										className="px-3 py-1 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-										onChange={handleInput}
-										options={services}
-									/>
+									<label className="flex items-center">
+										<input type="checkbox" className="form-checkbox" name="marketing" onChange={handleInput} />
+										<span className="ml-2">I agree to the <span className="underline"><a href="https://studio.icvn.tech/privacy" target="_blank" rel="noopener noreferrer">privacy policy</a>.</span></span>
+									</label>
 								</div>
 								<div className="relative w-full mb-3 mt-8">
-								  <label
-                    className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                    htmlFor="datepicker"
-                  >
-                    Project Timeline
-                  </label>
-									<DatePicker
-										className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline ease-linear transition-all duration-150" selected={startDate} onChange={date => setStartDate(date)} minDate={new Date()} maxDate={addMonths(new Date(), 2)} filterDate={isWeekday} isClearable showDisabledMonthNavigation/>
-								</div>
-								<div className="relative w-full mb-3 mt-8">
-									<label
-                    className="block uppercase text-gray-700 text-xs font-bold mb-2  mt-8"
-                    htmlFor="datepicker"
-                  >
-                    Project Budget
-                  </label>
-                  <input
-                    type="email"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                    placeholder="We usually get projects at $10.00-$20.00 USD/hour or $700.00 - $4,000.00 USD per project. No more, no less."
-                  />
-								</div>
+								<input
+                    className="bg-green-500 text-gray-900 hover:bg-green-700 text-lg font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" name="submit" type="submit" value="Send Inquiry Now" />{message}
+                </div>
 							  </form>
 			        </div>
 			    	</div>
@@ -144,5 +100,6 @@ export default function Contact() {
 		  	</div>
 	  	</div>
 		</section>
+		</>
 		)
 	}

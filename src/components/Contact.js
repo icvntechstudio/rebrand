@@ -15,7 +15,7 @@ export default function Contact() {
 	const sendData = async e => {
 		e.preventDefault()
 		try {
-			await fetch(
+			const response = await fetch(
 				(process.env.REACT_APP_AIRTABLE_API_ENDPOINT),
 				{
 					method: "POST",
@@ -25,8 +25,10 @@ export default function Contact() {
 					},
 				}
 			)
+			const json = response.json()
 			alert("Message sent. We will respond ASAP!")
 			window.location.href = "/"
+			JSON.stringify(json)
 		} catch (error) {
 			setMessage("Error")
 		}

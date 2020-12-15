@@ -1,14 +1,13 @@
 import React from 'react'
 import { useQuery } from "graphql-hooks"
+import LottieFeature from '../components/Lottie/LottieFeature'
 
 
 const SOLUTION_QUERY = `query {
   allSolutions{
     title
     description
-    icon{
-      url
-    }
+    lottie
 	}
   solutionHeading{
     title
@@ -58,8 +57,9 @@ export default function Services() {
 	            <div className="flex flex-wrap mt-12 justify-center">
 								{data.allSolutions.map((solution) => (
 	              <div className="w-full lg:w-4/12 px-4 text-center">
-	                <div className="text-gray-900 p-3 w-16 h-16 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-	                  <i className="fas fa-medal text-2xl"></i>
+	                <div className="text-gray-900 p-3 w-40 h-40 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+										<LottieFeature lotti={solution.lottie} height={120} width={120} />
+
 	                </div>
 	                <h6 className="text-xl mt-5 font-semibold text-white">
 	                  {solution.title}

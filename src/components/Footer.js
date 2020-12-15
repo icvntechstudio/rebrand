@@ -197,7 +197,23 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="http://icons8.com" target="_blank" rel="noopener noreferrer"
+                        href="https://icons8.com" target="_blank" rel="noopener noreferrer"
+                      >
+                        icons8
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="https://unsplash.com" target="_blank" rel="noopener noreferrer"
+                      >
+                        icons8
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="https://lottiefiles.com/" target="_blank" rel="noopener noreferrer"
                       >
                         icons8
                       </a>

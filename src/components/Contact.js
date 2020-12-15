@@ -84,6 +84,7 @@ export default function Contact() {
                   </label>
                    <textarea className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" rows="3" placeholder="Your message" name="message" onChange={handleInput} required/>
 								</div>
+								<div className="h-captcha" data-sitekey={(process.env.REACT_APP_HCAPTCHA_API)}></div>
 								<div className="relative w-full mb-3 mt-8">
 								<input
                     className="bg-green-500 text-gray-900 hover:bg-green-700 text-lg font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" name="submit" type="submit" value="Send Inquiry Now" required />

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Footer() {
   return (
     <>
@@ -125,7 +126,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="http://localhost:3000/?ref=studio-footer"
+                        href="https://studio.icvn.tech/#about"
                       >
                         About Us
                       </a>
@@ -133,15 +134,15 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="http://localhost:3000/?ref=studio-footer" target="_blank" rel="noopener noreferrer"
+                        href="https://studio.icvn.tech/#solutions" target="_blank" rel="noopener noreferrer"
                       >
-                        Services
+                        Solutions
                       </a>
                     </li>
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="http://localhost:3000/?ref=studio-footer"
+                        href="https://studio.icvn.tech/terms"
                       >
                         Terms & Conditions
                       </a>
@@ -149,7 +150,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="http://localhost:3000/?ref=studio-footer"
+                        href="https://studio.icvn.tech/privacy"
                       >
                         Privacy Policy
                       </a>
@@ -164,7 +165,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/notus-react/blob/master/LICENSE.md?ref=nr-footer"
+                        href="https://cutt.ly/9hts8uv" target="_blank" rel="noopener noreferrer"
                       >
                         Digital Ocean
                       </a>
@@ -172,7 +173,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="http://localhost:3000/terms?ref=studio-footer"
+                        href="https://mailchimp.com" target="_blank" rel="noopener noreferrer"
                       >
                         Mailchimp
                       </a>
@@ -180,15 +181,15 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="http://localhost:3000/privacy?ref=studio-footer"
+                        href="https://bit.ly/3boZDaS" target="_blank" rel="noopener noreferrer"
                       >
-                        ButterCMS
+                        Webflow
                       </a>
                     </li>
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="http://localhost:3000/contact?ref=studio-footer"
+                        href="https://cutt.ly/studio-discovery-call" target="_blank" rel="noopener noreferrer"
                       >
                         Book A Call
                       </a>
@@ -196,7 +197,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="http://icons8.com?ref=studio-footer"
+                        href="http://icons8.com" target="_blank" rel="noopener noreferrer"
                       >
                         icons8
                       </a>

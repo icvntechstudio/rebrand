@@ -3,9 +3,10 @@ import React, { useState } from 'react'
 
 export default function Contact() {
 	const [formData, setFormData] = useState({})
-	const [message, setMessage] = useState("");
+	const [setMessage] = useState("");
 
 	const handleInput = e => {
+		e.preventDefault()
 		const copyFormData = { ...formData }
 		copyFormData[e.target.name] = e.target.value
 		setFormData(copyFormData)
@@ -14,7 +15,7 @@ export default function Contact() {
 	const sendData = async e => {
 		e.preventDefault()
 		try {
-			const response = await fetch(
+			await fetch(
 				(process.env.REACT_APP_AIRTABLE_API_ENDPOINT),
 				{
 					method: "POST",
@@ -24,11 +25,9 @@ export default function Contact() {
 					},
 				}
 			)
-			const json = await response.json()
-			console.log("Success:", JSON.stringify(json))
-			setMessage("Success")
+			alert("Message sent. We will respond ASAP!")
+			window.location.href = "/"
 		} catch (error) {
-			console.log("Error:", error)
 			setMessage("Error")
 		}
 	}
@@ -47,7 +46,7 @@ export default function Contact() {
 				        <p className="leading-relaxed mt-2 mb-4 text-gray-600 text-center text-lg">
 				          Complete this form and we will get back to you in 24 hours.
 				        </p>
-								<form className="input-form" name="contact" id="contact" required onSubmit={sendData}>
+								<form className="input-form" name="contact" id="contact" required onSubmit={sendData} >
 								<div className="relative w-full mb-3 mt-8">
 								  <label
                     className="block uppercase text-gray-700 text-xs font-bold mb-2"
@@ -58,7 +57,7 @@ export default function Contact() {
 									<input
                     type="text"
                     className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                    placeholder="Your Name" name="name" onChange={handleInput}
+                    placeholder="Your Name" name="name" onChange={handleInput} required
                   />
 								</div>
 							  <div className="relative w-full mb-3 mt-8">
@@ -71,7 +70,7 @@ export default function Contact() {
 									<input
                     type="email"
                     className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                    placeholder="name@company.com" name="email" onChange={handleInput}
+                    placeholder="name@company.com" name="email" onChange={handleInput} required
                   />
 								</div>
 								<div className="relative w-full mb-3 mt-8">
@@ -81,17 +80,11 @@ export default function Contact() {
                   >
                     Message
                   </label>
-                   <textarea className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" rows="3" placeholder="Your message" name="message" onChange={handleInput} />
-								</div>
-								<div className="relative w-full mb-3 mt-8">
-									<label className="flex items-center">
-										<input type="checkbox" className="form-checkbox" name="marketing" onChange={handleInput} />
-										<span className="ml-2">I agree to the <span className="underline"><a href="https://studio.icvn.tech/privacy" target="_blank" rel="noopener noreferrer">privacy policy</a>.</span></span>
-									</label>
+                   <textarea className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" rows="3" placeholder="Your message" name="message" onChange={handleInput} required/>
 								</div>
 								<div className="relative w-full mb-3 mt-8">
 								<input
-                    className="bg-green-500 text-gray-900 hover:bg-green-700 text-lg font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" name="submit" type="submit" value="Send Inquiry Now" />{message}
+                    className="bg-green-500 text-gray-900 hover:bg-green-700 text-lg font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg hover::bg-green-700 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" name="submit" type="submit" value="Send Inquiry Now" required />
                 </div>
 							  </form>
 			        </div>

@@ -126,6 +126,14 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="https://cutt.ly/studio-discovery-call" target="_blank" rel="noopener noreferrer"
+                      >
+                        Book A Call
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://studio.icvn.tech/#about"
                       >
                         About Us
@@ -189,14 +197,6 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://cutt.ly/studio-discovery-call" target="_blank" rel="noopener noreferrer"
-                      >
-                        Book A Call
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://icons8.com" target="_blank" rel="noopener noreferrer"
                       >
                         icons8
@@ -207,7 +207,7 @@ export default function Footer() {
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://unsplash.com" target="_blank" rel="noopener noreferrer"
                       >
-                        icons8
+                        Unsplash
                       </a>
                     </li>
                     <li>
@@ -215,7 +215,7 @@ export default function Footer() {
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://lottiefiles.com/" target="_blank" rel="noopener noreferrer"
                       >
-                        icons8
+                        Lottiefiles
                       </a>
                     </li>
                   </ul>

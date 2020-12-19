@@ -18,7 +18,7 @@ const SOLUTION_QUERY = `query {
 export default function Services() {
 	const { loading, error, data } = useQuery(SOLUTION_QUERY, {
 		variables: {
-			limit: 3
+			limit: 5
 		}
 	})
 

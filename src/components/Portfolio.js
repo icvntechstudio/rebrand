@@ -20,7 +20,7 @@ const PORTFOLIO_QUERY = `query {
 export default function Portfolio() {
 	const { loading, error, data } = useQuery(PORTFOLIO_QUERY, {
 		variables: {
-			variables: 3
+			variables: 5
 		}
 	})
 

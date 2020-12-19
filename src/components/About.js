@@ -16,7 +16,7 @@ const ABOUT_QUERY = `query {
 export default function About() {
   const { loading, error, data } = useQuery(ABOUT_QUERY, {
     variables: {
-      limit: 3
+      limit: 5
     }
   })
 

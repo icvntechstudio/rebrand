@@ -1,13 +1,14 @@
 import React from 'react'
-import LottieFeature from '../components/Lottie/LottieFeature'
 import { useQuery } from "graphql-hooks"
 
 
 const PARTNER_QUERY = `query {
   allPartners {
     name
-    icon
-    website
+		website
+		logo{
+			url
+		}
 	}
   partnerHeading {
     title
@@ -19,7 +20,7 @@ const PARTNER_QUERY = `query {
 export default function Clients() {
 	const { loading, error, data } = useQuery(PARTNER_QUERY, {
 		variables: {
-			limit: 4
+			limit: 5
 		}
 	})
 
@@ -43,8 +44,12 @@ export default function Clients() {
 						<div className="flex flex-wrap justify-center items-center mx-auto p-8">
 							{data.allPartners.map((partner) => (
 								<div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6 mt-12">
-										<div key={partner.id}>
-											<LottieFeature lotti={partner.icon} height={110} width={100} />
+										<div className="px-16 2xl:px-16 max-w-50" key={partner.id}>
+											<img
+												alt="..."
+												src={partner.logo.url}
+												className="max-w-full mx-auto"
+											/>
 										</div>
 										<div className="pt-6 text-center">
 											<h5 className="text-xl font-bold">{partner.name}</h5>

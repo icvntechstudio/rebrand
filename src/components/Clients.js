@@ -44,7 +44,7 @@ export default function Clients() {
 						<div className="flex flex-wrap justify-center items-center mx-auto p-8">
 							{data.allPartners.map((partner) => (
 								<div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6 mt-12">
-										<div className="px-16 2xl:px-16 max-w-50" key={partner.id}>
+										<div className="mx-auto my-auto mb-4 w-40 h-40" key={partner.id}>
 											<img
 												alt="..."
 												src={partner.logo.url}

@@ -48,7 +48,7 @@ export default function Clients() {
 											<img
 												alt="..."
 												src={partner.logo.url}
-												className="max-w-full mx-auto"
+												className="max-w-full mx-auto lazyload"
 											/>
 										</div>
 										<div className="pt-6 text-center">

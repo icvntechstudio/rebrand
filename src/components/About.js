@@ -48,7 +48,7 @@ export default function About() {
               <div className="w-full lg:w-6/12 px-8 ml-auto mr-auto mb-12">
                 <img
                   alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
+                  className="max-w-full rounded-lg shadow-lg lazyload"
                   src={data.about.image.url}
                 />
               </div>

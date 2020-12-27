@@ -36,7 +36,7 @@ export default function Contact() {
 
 	return (
 		<>
-		<section className="static block py-20 lg:pt-0 bg-gray-900">
+		<section className="static block py-20 lg:pt-0 bg-gray-900" id="contact">
 	    <div className="container mx-auto px-4">
 		    <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
 		      <div className="w-full lg:w-8/12 px-4">
@@ -48,7 +48,7 @@ export default function Contact() {
 				        <p className="leading-relaxed mt-2 mb-4 text-gray-600 text-center text-lg">
 				          Complete this form and we will get back to you in 24 hours.
 				        </p>
-								<form className="input-form" name="contact" id="contact" required onSubmit={sendData} >
+								<form className="input-form" name="contact" required onSubmit={sendData} >
 								<div className="relative w-full mb-3 mt-8">
 								  <label
                     className="block uppercase text-gray-700 text-xs font-bold mb-2"

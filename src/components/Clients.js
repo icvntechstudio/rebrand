@@ -8,6 +8,7 @@ const PARTNER_QUERY = `query {
 		website
 		logo{
 			url
+			alt
 		}
 	}
   partnerHeading {
@@ -32,7 +33,7 @@ export default function Clients() {
 		<div className="bg-gray-300">
 			<div className="container mx-auto">
 				<section className="pt-20 pb-32">
-					<div className="container mx-auto" id="about">
+					<div className="container mx-auto">
 						<div className="flex flex-wrap justify-center text-center mb-24">
 							<div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-6">
 								<h2 className="text-4xl font-semibold">{data.partnerHeading.title}</h2>
@@ -46,7 +47,7 @@ export default function Clients() {
 								<div className="w-full md:w-6/12 lg:w-4/12 sm:w-1/2 lg:mb-0 mb-12 px-6 mt-12">
 										<div className="mx-auto my-auto mb-4 w-40 h-40" key={partner.id}>
 											<img
-												alt="..."
+												alt={partner.logo.alt}
 												src={partner.logo.url}
 												className="max-w-full mx-auto lazyload"
 											/>

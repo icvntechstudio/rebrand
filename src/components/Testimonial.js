@@ -48,7 +48,7 @@ export default function Testimonial() {
 								</svg>
 								<p className="leading-relaxed mb-6" >{testimonial.clientTestimonial}
 								</p>
-									<img alt="" src={testimonial.clientLogo.url} className="lazyload w-24 h-20 rounded-full flex-shrink-0 object-cover object-center mx-auto" />
+									<img alt={testimonial.clientLogo.alt} src={testimonial.clientLogo.url} className="lazyload w-24 h-20 rounded-full flex-shrink-0 object-cover object-center mx-auto" />
 									<span className="flex-grow flex flex-col pl-4">
 										<span className="title-font font-medium text-gray-900">{testimonial.clientName}</span>
 										<span className="text-gray-500 text-sm">{testimonial.clientRole}</span>

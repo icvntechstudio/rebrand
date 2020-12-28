@@ -3,6 +3,8 @@ import { useQuery } from "graphql-hooks"
 import LeftTech from './LeftTech'
 import RightTech from './RightTech'
 
+
+
 const TECH_QUERY = `query {
   textStackDescription{
 		icon

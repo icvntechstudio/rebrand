@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -29,7 +29,7 @@ export default function Footer() {
             <div className="w-full 2xl:w-6/12 xl:w-6/12 lg:w-6/12 px-6">
               <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
               <h5 className="text-lg mt-0 mb-2 text-gray-700">
-                Send a message via our <a href="#contact">form</a> or in any of our social media accounts, we respond 1-2 business days.
+                Send a message via our form or in any of our social media accounts, we respond 1-2 business days.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
                 <ul className="flex flex-row lg:flex-row list-none lg:ml-auto items-center md:justify-between justify-center">
@@ -148,20 +148,20 @@ export default function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://studio.icvn.tech/terms"
+                        to="/terms"
                       >
                         Terms of Service
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://studio.icvn.tech/privacy"
+                        to="/privacy"
                       >
                         Privacy Policy
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

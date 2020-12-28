@@ -8,6 +8,7 @@ const SOLUTION_QUERY = `query {
     description
     icon{
 			url
+			alt
 		}
 	}
   solutionHeading{
@@ -60,7 +61,7 @@ export default function Services() {
 	              <div className="w-full lg:w-4/12 px-4 text-center">
 	                <div className="text-gray-900 p-3 w-40 h-40 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
 											<img
-												alt="..."
+												alt={solution.icon.alt}
 												src={solution.icon.url}
 												className="max-w-full mx-auto lazyload"
 											/>

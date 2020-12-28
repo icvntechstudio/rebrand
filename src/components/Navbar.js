@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 
 export default function Navbar(props) {
@@ -9,12 +8,12 @@ export default function Navbar(props) {
       <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-4 py-3 navbar-expand-lg">
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <Link
+            <a
               className="text-white text-2xl mr-4 font-bold leading-relaxed inline-block py-2 whitespace-no-wrap uppercase"
-              to="/"
+              href="/"
             >
               ICVN Tech Studio
-            </Link>
+            </a>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"

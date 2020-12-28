@@ -9,6 +9,7 @@ const ABOUT_QUERY = `query {
     list
     image{
       url
+      alt
     }
   }
 }`
@@ -47,7 +48,7 @@ export default function About() {
             <div className="items-center flex flex-wrap justify-center">
               <div className="w-full lg:w-6/12 px-8 ml-auto mr-auto mb-12">
                 <img
-                  alt="..."
+                  alt={data.about.image.alt}
                   className="max-w-full rounded-lg shadow-lg lazyload"
                   src={data.about.image.url}
                 />

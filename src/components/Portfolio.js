@@ -6,7 +6,8 @@ const PORTFOLIO_QUERY = `query {
   allPortfolios {
     portfolioName
     screenshot{
-      url
+			url
+			alt
     }
     website
   }
@@ -50,7 +51,7 @@ export default function Portfolio() {
 									</h5>
 									<a href={portfolio.website} target="_blank" rel="noopener noreferrer">
 										<div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
-											<img alt="..." className="align-middle border-none max-w-full h-auto rounded-lg lazyload" src={portfolio.screenshot.url} />
+											<img alt={portfolio.screenshot.alt} className="align-middle border-none max-w-full h-auto rounded-lg lazyload" src={portfolio.screenshot.url} />
 										</div>
 									</a>
 								</div>

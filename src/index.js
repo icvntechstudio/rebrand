@@ -6,6 +6,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "assets/styles/tailwind.css";
 
 import App from './App';
+import Privacy from './Privacy'
+import Terms from './Terms'
 import reportWebVitals from './reportWebVitals';
 import { GraphQLClient, ClientContext } from 'graphql-hooks'
 
@@ -21,6 +23,8 @@ ReactDOM.render(
     <ClientContext.Provider value={client}>
       <Switch>
         <Route path="/" exact component={App} />
+        <Route path="/privacy" exact component={Privacy} />
+        <Route path="/terms" exact component={Terms} />
         <Redirect from="*" to="/" />
       </Switch>
     </ClientContext.Provider>

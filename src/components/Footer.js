@@ -152,7 +152,7 @@ export default function Footer() {
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://studio.icvn.tech/terms"
                       >
-                        Terms & Conditions
+                        Terms of Service
                       </a>
                     </li>
                     <li>

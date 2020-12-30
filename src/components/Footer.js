@@ -149,7 +149,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/terms"
+                        href="https://studio.icvn.tech/terms"
                       >
                         Terms of Service
                       </a>
@@ -157,7 +157,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/privacy"
+                        href="https://studio.icvn.tech/privacy"
                       >
                         Privacy Policy
                       </a>

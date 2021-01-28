@@ -65,16 +65,6 @@ export default function Footer() {
                   <li className="flex items-center">
                     <form target="_blank" rel="noopener noreferrer">
                       <button
-                        className="bg-white text-gray-900 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formAction="https://medium.com/@highcenburg"
-                      >
-                        <i className="fab fa-medium"></i>
-                      </button>
-                    </form>
-                  </li>
-                  <li className="flex items-center">
-                    <form target="_blank" rel="noopener noreferrer">
-                      <button
                         className="bg-white text-blue-400 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                         type="submit" formAction="https://facebook.com/highcenbugtv"
                       >
@@ -99,16 +89,6 @@ export default function Footer() {
                         type="submit" formAction="https://instagram.com/highcenbugtv"
                       >
                         <i className="fab fa-instagram"></i>
-                      </button>
-                    </form>
-                  </li>
-                  <li className="flex items-center">
-                    <form target="_blank" rel="noopener noreferrer">
-                      <button
-                        className="bg-white text-gray-900 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formAction="https://open.spotify.com/artist/7oujeUrwgwhYUQFRW7VlIR"
-                      >
-                        <i className="fab fa-spotify text-green-500"></i>
                       </button>
                     </form>
                   </li>
@@ -227,11 +207,12 @@ export default function Footer() {
             <div className="w-full md:w-4/12 px-6 mx-auto text-center">
               <div className="text-sm text-gray-600 font-semibold py-1">
                 <span>Copyright © {new Date().getFullYear()} </span>
-                <a
-                  href="https://www.studio.icvn.tech?ref=internal_footer"
-                  className="text-gray-600 hover:text-gray-900"
+                <a 
+                  href="https://www.studio.icvn.tech"
+                  className="text-gray-600 
+                  hover:text-gray-900"
                 >
-                studio.icvn.tech {" "}
+                ICVN Tech Studio {" "}
                 </a>
 
               </div>

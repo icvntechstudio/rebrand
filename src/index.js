@@ -23,13 +23,13 @@ ReactDOM.render(
     <ClientContext.Provider value={client}>
       <Switch>
         <Route path="/" exact component={App} />
-        <Route exact path="/terms">
+      </Switch>
+      <Route exact path="/terms">
           <Terms />
         </Route>
         <Route exact path="/privacy">
           <Privacy />
         </Route>
-      </Switch>
     </ClientContext.Provider>
   </BrowserRouter>,
   document.getElementById('root')

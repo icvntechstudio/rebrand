@@ -23,14 +23,9 @@ ReactDOM.render(
     <ClientContext.Provider value={client}>
     <Route path="/" exact component={App} />
       <Switch>
-        <Route exact path="/terms-of-service">
-          <Terms />
-        </Route>
-        <Route exact path="/privacy-policy">
-          <Privacy />
-        </Route>
+        <Route exact path="/terms" exact component={Terms} />
+        <Route exact path="/privacy" exact component={Privacy} />
       </Switch>
-
     </ClientContext.Provider>
   </BrowserRouter>,
   document.getElementById('root')

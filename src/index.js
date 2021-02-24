@@ -21,15 +21,16 @@ const client = new GraphQLClient({
 ReactDOM.render(
   <BrowserRouter>
     <ClientContext.Provider value={client}>
+    <Route path="/" exact component={App} />
       <Switch>
-        <Route path="/" exact component={App} />
-      </Switch>
-      <Route exact path="/terms">
+        <Route exact path="/terms-of-service">
           <Terms />
         </Route>
-        <Route exact path="/privacy">
+        <Route exact path="/privacy-policy">
           <Privacy />
         </Route>
+      </Switch>
+
     </ClientContext.Provider>
   </BrowserRouter>,
   document.getElementById('root')

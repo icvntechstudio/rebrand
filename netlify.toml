@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/terms"
+  to = "/terms-of-service"
+  status = 301
+
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy-policy"
+  status = 301

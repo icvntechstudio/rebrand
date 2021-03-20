@@ -5,7 +5,7 @@
   "repository": "https://github.com/icvntechstudio/studio",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.14.0",
+    "@fortawesome/fontawesome-free": "5.15.2",
     "@popperjs/core": "2.5.1",
     "@tailwindcss/custom-forms": "0.2.1",
     "graphql-hooks": "^5.0.0",

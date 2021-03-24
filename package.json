@@ -5,10 +5,10 @@
   "repository": "https://github.com/icvntechstudio/studio",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.14.0",
+    "@fortawesome/fontawesome-free": "5.15.2",
     "@popperjs/core": "2.9.0",
     "@tailwindcss/custom-forms": "0.2.1",
-    "graphql-hooks": "^5.0.0",
+    "graphql-hooks": "^5.1.1",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
     "react": "^17.0.1",
@@ -16,7 +16,7 @@
     "react-lottie": "^1.2.3",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
-    "react-scripts": "4.0.0",
+    "react-scripts": "4.0.3",
     "tailwindcss": "1.9.6",
     "web-vitals": "^0.2.4"
   },

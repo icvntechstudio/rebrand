@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.2",
-    "@popperjs/core": "2.5.1",
+    "@popperjs/core": "2.8.6",
     "@tailwindcss/custom-forms": "0.2.1",
     "graphql-hooks": "^5.0.0",
     "gulp": "4.0.2",
@@ -17,7 +17,7 @@
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.0",
-    "tailwindcss": "1.8.10",
+    "tailwindcss": "1.9.6",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

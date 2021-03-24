@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.2",
-    "@popperjs/core": "2.8.6",
+    "@popperjs/core": "2.9.0",
     "@tailwindcss/custom-forms": "0.2.1",
     "graphql-hooks": "^5.1.1",
     "gulp": "4.0.2",

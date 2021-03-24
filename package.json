@@ -8,7 +8,7 @@
     "@fortawesome/fontawesome-free": "5.15.2",
     "@popperjs/core": "2.8.6",
     "@tailwindcss/custom-forms": "0.2.1",
-    "graphql-hooks": "^5.0.0",
+    "graphql-hooks": "^5.1.1",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
     "react": "^17.0.1",

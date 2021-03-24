@@ -6400,10 +6400,10 @@ graceful-fs@^4.0.0, graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
-graphql-hooks@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/graphql-hooks/-/graphql-hooks-5.1.0.tgz#a3d8535f0707ff8b1e0b8db2c7702b64c85fe4ab"
-  integrity sha512-odrjr18TWCasCIUy6rQ8yLlcH0/O4RlruJ390FUnKG4Unn1FXL27YMvGkgdiOFebHPQDV1Wcpi4njKWJx9TjDA==
+graphql-hooks@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/graphql-hooks/-/graphql-hooks-5.1.1.tgz#5e85db8b6e16f29d4d9172c25096514b80ddcb63"
+  integrity sha512-s9T+eZ4i5/NyI65tqLKb0SHc3n0V+1xi1jwM0qO3c8sunJalG2Jvh9V0xsFNsakXxHcgD/XReUOGsz4lrwwv6w==
   dependencies:
     dequal "^2.0.0"
     extract-files "^9.0.0"

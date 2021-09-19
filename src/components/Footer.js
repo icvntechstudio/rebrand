@@ -66,7 +66,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-blue-400 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formAction="https://facebook.com/highcenbugtv"
+                        type="submit" formAction="https://facebook.com/vagreyess"
                       >
                         <i className="fab fa-facebook-square text-blue-600"></i>
                       </button>
@@ -86,7 +86,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-pink-400 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formAction="https://instagram.com/highcenbugtv"
+                        type="submit" formAction="https://instagram.com/freelancesoftwaredeveloper"
                       >
                         <i className="fab fa-instagram"></i>
                       </button>

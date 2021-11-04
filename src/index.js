@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "assets/styles/tailwind.css";
@@ -21,11 +21,11 @@ const client = new GraphQLClient({
 ReactDOM.render(
   <BrowserRouter>
     <ClientContext.Provider value={client}>
-      <Switch>
+      <Routes>
         <Route path="/" exact component={App} />
         <Route path="/terms" exact component={Terms} />
         <Route path="/privacy" exact component={Privacy} />
-      </Switch>
+        </Routes>
     </ClientContext.Provider>
   </BrowserRouter>,
   document.getElementById('root')

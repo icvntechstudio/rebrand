@@ -1,5 +1,6 @@
 {
   "name": "studio-icvn-tech",
+  "homepage": "https://icvntechstudio.github.io/rebrand/",
   "version": "1.1.0",
   "description": "A design and technology studio turning pain points into design. We help startups launch fast, secure and converting websites.",
   "repository": "https://github.com/icvntechstudio/studio",
@@ -8,6 +9,7 @@
     "@fortawesome/fontawesome-free": "^6.2.1",
     "@popperjs/core": "^2.11.6",
     "@tailwindcss/custom-forms": "^0.2.1",
+    "gh-pages": "^5.0.0",
     "graphql-hooks": "^6.1.0",
     "gulp": "^4.0.2",
     "gulp-append-prepend": "^1.0.9",
@@ -22,6 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

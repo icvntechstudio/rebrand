@@ -22,9 +22,9 @@ ReactDOM.render(
   <BrowserRouter>
     <ClientContext.Provider value={client}>
       <Routes>
-        <Route path="/" exact component={App} />
-        <Route path="/terms" exact component={Terms} />
-        <Route path="/privacy" exact component={Privacy} />
+        <Route path="/" element={<App />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
         </Routes>
     </ClientContext.Provider>
   </BrowserRouter>,

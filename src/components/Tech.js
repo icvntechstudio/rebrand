@@ -2,7 +2,7 @@ import React from 'react'
 import { useQuery } from "graphql-hooks"
 import LeftTech from './LeftTech'
 import RightTech from './RightTech'
-
+import { Link } from "react-router-dom";
 
 
 const TECH_QUERY = `query {
@@ -48,10 +48,10 @@ export default function Tech() {
 			          </span>
 								))}
 			        </div>
-			        <a href="https://share.hsforms.com/1hy5KUSAbS1GKx5oD7sVhoQ57353" target="_blank" rel="noopener noreferrer" className="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150">
-			          Get Quote{" "}
+			        <Link to="https://calendly.com/vicentereyes" target="_blank" rel="noopener noreferrer" className="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150">
+			          Book a Call{" "}
 			          <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-			        </a>
+			        </Link>
 		      	</div>
 			      <div className="w-full xs:w-full sm:w-full md:w-6/12 lg:w-6/12 xl:w-6/12 2xl:px-16 xl:px-12 lg:px-10 px-6 md:px-4 sm:px-4 xs:px-12 mr-auto ml-auto xs:mt-32 sm:mt-32 md:mt-12">
 			        <div className="justify-center flex flex-wrap relative">

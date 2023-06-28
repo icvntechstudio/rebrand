@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -207,13 +208,13 @@ export default function Footer() {
             <div className="w-full md:w-4/12 px-6 mx-auto text-center">
               <div className="text-sm text-gray-600 font-semibold py-1">
                 <span>Copyright © {new Date().getFullYear()} </span>
-                <a 
-                  href="https://www.studio.icvn.tech"
+                <Link 
+                  to="https://www.studio.icvn.tech"
                   className="text-gray-600 
                   hover:text-gray-900"
                 >
                 ICVN Tech Studio {" "}
-                </a>
+                </Link>
 
               </div>
             </div>

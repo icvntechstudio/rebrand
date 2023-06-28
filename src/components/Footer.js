@@ -67,7 +67,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-blue-400 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formAction="https://facebook.com/vagreyess"
+                        type="submit" formAction="https://facebook.com/highcenburg"
                       >
                         <i className="fab fa-facebook-square text-blue-600"></i>
                       </button>
@@ -77,7 +77,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-blue-400 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formAction="https://twitter.com/highcenburg"
+                        type="submit" formAction="https://twitter.com/icenreyes"
                       >
                         <i className="fab fa-twitter"></i>
                       </button>
@@ -87,7 +87,7 @@ export default function Footer() {
                     <form target="_blank" rel="noopener noreferrer">
                       <button
                         className="bg-white text-pink-400 shadow-2xl font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                        type="submit" formAction="https://instagram.com/freelancesoftwaredeveloper"
+                        type="submit" formAction="https://instagram.com/icenreyess"
                       >
                         <i className="fab fa-instagram"></i>
                       </button>
@@ -106,7 +106,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://cutt.ly/studio-discovery-call" target="_blank" rel="noopener noreferrer"
+                        href="https://calendly.com/vicentereyes" target="_blank" rel="noopener noreferrer"
                       >
                         Book A Call
                       </a>
@@ -114,7 +114,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://studio.icvn.tech/#about"
+                        href="https://studio.vicentereyes.org/#about"
                       >
                         About Us
                       </a>
@@ -122,7 +122,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://studio.icvn.tech/#solutions" target="_blank" rel="noopener noreferrer"
+                        href="https://studio.vicentereyes.org/#solutions" target="_blank" rel="noopener noreferrer"
                       >
                         Solutions
                       </a>
@@ -130,7 +130,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://studio.icvn.tech/terms"
+                        href="https://studio.vicentereyes.org/terms"
                       >
                         Terms of Service
                       </a>
@@ -138,7 +138,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://studio.icvn.tech/privacy"
+                        href="https://studio.vicentereyes.org/privacy"
                       >
                         Privacy Policy
                       </a>
@@ -209,7 +209,7 @@ export default function Footer() {
               <div className="text-sm text-gray-600 font-semibold py-1">
                 <span>Copyright © {new Date().getFullYear()} </span>
                 <Link 
-                  to="https://www.studio.icvn.tech"
+                  to="https://www.vicentereyes.org"
                   className="text-gray-600 
                   hover:text-gray-900"
                 >

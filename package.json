@@ -9,7 +9,7 @@
     "@fortawesome/fontawesome-free": "^6.2.1",
     "@popperjs/core": "^2.11.6",
     "@tailwindcss/custom-forms": "^0.2.1",
-    "gh-pages": "^5.0.0",
+    "gh-pages": "^3.0.0",
     "graphql-hooks": "^6.1.0",
     "gulp": "^4.0.2",
     "gulp-append-prepend": "^1.0.9",

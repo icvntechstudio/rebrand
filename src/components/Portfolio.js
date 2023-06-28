@@ -3,19 +3,20 @@ import { useQuery } from 'graphql-hooks'
 import { Link } from "react-router-dom";
 
 const PORTFOLIO_QUERY = `query {
-  allPortfolios {
-    portfolioName
-    screenshot{
-			url
-			alt
-    }
-    website
-  }
-  portfolioHeading{
-    title
-    subtitle
-  }
-}`
+	allPortfolios {
+	  portfolioName
+	  screenshot{
+			  url
+			  alt
+		id
+	  }
+	  website
+	}
+	portfolioHeading{
+	  title
+	  subtitle
+	}
+  }`
 
 
 export default function Portfolio() {

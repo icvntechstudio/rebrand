@@ -3,20 +3,21 @@ import { useQuery } from 'graphql-hooks'
 
 
 const TESTIMONIAL_QUERY = `query {
-  allTestimonials{
-    clientName
-    clientLogo {
-      url
-      alt
-    }
-    clientRole
-    clientTestimonial
-  }
-  testimonialHeading{
-    title
-    subtitle
-  }
-}`
+	allTestimonials{
+	  clientName
+	  clientLogo {
+		url
+		alt
+		id
+	  }
+	  clientRole
+	  clientTestimonial
+	}
+	testimonialHeading{
+	  title
+	  subtitle
+	}
+  }`
 
 export default function Testimonial() {
 	const { loading, error, data } = useQuery(TESTIMONIAL_QUERY, {

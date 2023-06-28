@@ -7,6 +7,7 @@ const RIGHT_TECH = `query {
   allTechStacks(orderBy: id_DESC,first: 3) {
     language
     logo{
+      id
       url
       alt
     }
@@ -30,7 +31,7 @@ export default function LeftTech() {
       {data.allTechStacks.map(left => (
         <div key={left.id}>
           <Link to={left.website} target="_blank" rel="noopener noreferrer">
-            <div className="bg-gray-100 shadow-lg rounded-lg text-center p-8 mt-8">
+            <div className="bg-gray-100 shadow-lg rounded-lg text-center p-8 mt-8" key={left.logo.id}>
               <img alt={left.logo.alt} className="max-w-full w-16 mx-auto p-4 bg-gray-100 lazyload" src={left.logo.url} />
                 <p className="text-lg text-grey mt-4 font-semibold">
                   {left.language}

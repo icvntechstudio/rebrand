@@ -89,7 +89,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://twitter.com/highcenburg" target="_blank" rel="noopener noreferrer">
+                  href="https://twitter.com/icenreyes" target="_blank" rel="noopener noreferrer">
                   <i className="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Twitter</span>
                 </a>

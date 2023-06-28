@@ -7,6 +7,7 @@ const LEFT_TECH = `query {
   allTechStacks(first: 3) {
     language
     logo{
+      id
       url
       alt
     }

@@ -3,19 +3,21 @@ import { useQuery } from "graphql-hooks"
 
 
 const SOLUTION_QUERY = `query {
-  allSolutions{
-    title
-    description
-    icon{
-			url
-			alt
-		}
+	allSolutions{
+	  id
+	  title
+	  description
+	  icon{
+			  url
+			  alt
+		  }
+	  }
+	solutionHeading{
+	  id
+	  title
+	  subtitle
 	}
-  solutionHeading{
-    title
-    subtitle
-  }
-}`
+  }`
 
 export default function Services() {
 	const { loading, error, data } = useQuery(SOLUTION_QUERY, {
@@ -45,7 +47,7 @@ export default function Services() {
 								</polygon>
 	            </svg>
 	          </div>
-	          <div className="container mx-auto lg:pt-24 lg:pb-64 px-12" id="solutions">
+	          <div className="container mx-auto lg:pt-24 lg:pb-64 px-12" id="solutions" key={data.solutionHeading.id}>
 	            <div className="flex flex-wrap text-center justify-center">
 	              <div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-4">
 	                <h2 className="text-4xl font-semibold text-white">
@@ -58,7 +60,7 @@ export default function Services() {
 	            </div>
 	            <div className="flex flex-wrap mt-12 justify-center">
 								{data.allSolutions.map((solution) => (
-	              <div className="w-full lg:w-4/12 px-4 text-center">
+	              <div className="w-full lg:w-4/12 px-4 text-center" key={solution.icon.id}>
 	                <div className="text-gray-900 p-3 w-40 h-40 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
 											<img
 												alt={solution.icon.alt}

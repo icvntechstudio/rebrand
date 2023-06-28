@@ -9,9 +9,11 @@ const PARTNER_QUERY = `query {
 		logo{
 			url
 			alt
+			id
 		}
 	}
   partnerHeading {
+	id
     title
     subtitle
   }
@@ -35,7 +37,7 @@ export default function Clients() {
 				<section className="pt-20 pb-32">
 					<div className="container mx-auto">
 						<div className="flex flex-wrap justify-center text-center mb-24">
-							<div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-6">
+							<div className="w-full xl:w-8/12 lg:w-8/12 md:w-8/12 px-6" key={data.partnerHeading.id}>
 								<h2 className="text-4xl font-semibold">{data.partnerHeading.title}</h2>
 								<p className="text-lg leading-relaxed m-4 text-gray-600">
 			            {data.partnerHeading.subtitle}

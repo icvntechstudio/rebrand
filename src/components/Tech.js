@@ -6,15 +6,16 @@ import { Link } from "react-router-dom";
 
 
 const TECH_QUERY = `query {
-  textStackDescription{
-		icon
-    title
-    subtitle
-  }
-  allTechDescriptionLists{
-    list
-  }
-}`
+	textStackDescription{
+	  id
+		  icon
+	  title
+	  subtitle
+	}
+	allTechDescriptionLists{
+	  list
+	}
+  }`
 
 export default function Tech() {
 	const { loading, error, data } = useQuery(TECH_QUERY, {
@@ -29,7 +30,7 @@ export default function Tech() {
 		return (
 			<>
 				<section className="overflow-hidden pb-32 bg-gray-300 -mt-24 mx-auto px-8 py-20">
-		      <div className="container mx-auto flex flex-wrap items-center pt-18">
+		      <div className="container mx-auto flex flex-wrap items-center pt-18" key={data.textStackDescription.id}>
 						<div className="w-full xs:w-full sm:w-full md:w-6/12 lg:w-6/12 xl:w-6/12 2xl:px-16 xl:px-12 lg:px-10 px-10 md:px-4 sm:px-4 xs:px-12 mr-auto ml-auto xs:mt-32 sm:mt-32 md:mt-12">
 			        <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
 			          <i className="fas fa-drafting-compass text-xl"></i>
